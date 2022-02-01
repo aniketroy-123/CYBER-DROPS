@@ -35,7 +35,7 @@ const Faq = () => {
               className={`faq-question  text-uppercase d-flex align-items-center justify-content-between pt-2 pb-3 `}
             >
               {item.question}{" "}
-              <span className={`${index == view ? "rotate-icon" : ""}`}>
+              <span className={`${index === view ? "rotate-icon" : ""}`}>
                 <svg
                   className="rotate"
                   width="12"
