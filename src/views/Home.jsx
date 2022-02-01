@@ -1,10 +1,12 @@
 import React from "react";
 import Faq from "../components/Faq";
+import BackToTop from "../components/common/BackToTop";
 
 const Home = () => {
   return (
     <>
       <Faq />
+      <BackToTop />
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-8">

@@ -197,3 +197,36 @@
 }
 
 /* HEADER OVERLAY STYLES  */
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 35px;
+  z-index: 9999;
+  font-size: var(--font-sm);
+  color: var(--color-white);
+  background: linear-gradient(40deg, #ff00ab 29.44%, #4d00ff 81.54%);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: updown-element-animation 2s infinite;
+}
+
+@keyframes updown-element-animation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(8px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

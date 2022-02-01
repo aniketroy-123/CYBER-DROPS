@@ -32,7 +32,7 @@ const Faq = () => {
             }`}
           >
             <div
-              className={`faq-question text-white text-uppercase d-flex align-items-center justify-content-between pt-2 pb-3 `}
+              className={`faq-question  text-uppercase d-flex align-items-center justify-content-between pt-2 pb-3 `}
             >
               {item.question}{" "}
               <span className={`${index == view ? "rotate-icon" : ""}`}>
