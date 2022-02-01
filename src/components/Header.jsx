@@ -20,25 +20,17 @@ const Header = () => {
       <section className="d-flex w-100 navbar-wrapper justify-content-center">
         <Desktop>
           <div className="d-flex align-items-center justify-content-center">
-            {headerData.map((item, index) => {
-              return (
-                <>
-                  <li
-                    key={index}
-                    className={`mx-3 nav-list-items p-2 d-inline-block ${
-                      index == 0 ? "active" : ""
-                    }`}
-                  >
-                    <a href={`#${item.url}`}>{item.title}</a>
-                  </li>
-                  {index == 2 && (
-                    <li key={index} className="mx-3 p-2 d-inline-block">
-                      <h1>Logo</h1>
-                    </li>
-                  )}
-                </>
-              );
-            })}
+            {headerData.map((item, index) => (
+              <span key={index}>
+                <li
+                  className={`mx-3 nav-list-items p-2 d-inline-block ${
+                    index === 0 ? "active" : ""
+                  }`}
+                >
+                  <a href={`#${item.url}`}>{item.title}</a>
+                </li>
+              </span>
+            ))}
           </div>
         </Desktop>
 

@@ -1,7 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { faqData } from "./common/data";
-import { UpArrowIcon } from "./common/Icons";
 
 const Faq = () => {
   const [view, setView] = React.useState(null);
