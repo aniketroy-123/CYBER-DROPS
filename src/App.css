@@ -385,7 +385,11 @@ body {
   z-index: 9999;
   font-size: var(--font-sm);
   color: var(--color-white);
-  background: linear-gradient(40deg, #ff00ab 29.44%, #4d00ff 81.54%);
+  background: linear-gradient(
+    40deg,
+    var(--skin) 29.44%,
+    rgba(21, 171, 255, 1) 81.54%
+  );
   border-radius: 50%;
   width: 55px;
   height: 55px;
@@ -395,6 +399,11 @@ body {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   animation: updown-element-animation 2s infinite;
+  box-shadow: 0 0 9px var(--skin);
+}
+
+.back-to-top:hover {
+  box-shadow: 0 0 18px var(--skin);
 }
 
 @keyframes updown-element-animation {

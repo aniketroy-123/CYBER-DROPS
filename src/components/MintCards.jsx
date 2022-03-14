@@ -1,5 +1,4 @@
 import React from "react";
-// import MissionImg from "../assets/png/mission-img.png";
 
 const MintCards = () => {
   return (
@@ -22,7 +21,7 @@ const MintCards = () => {
                     01
                   </p>
                   <p className="fw-700 fs-lg text-center mt-1">Mint NFT</p>
-                  <p className="fs-sm mb-0 text-center px-xl-3">
+                  <p className="fs-sm mb-0 text-center px-xl-2 px-xxl-3">
                     You must own our NFT to connect to direct management or
                     participate in governance
                   </p>
