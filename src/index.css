@@ -1,0 +1,38 @@
+/* ========================== cards-secton ============================== */
+.works-cards {
+  background: linear-gradient(180deg, #f1ac73 31.68%, #15abff 100%);
+  padding: 2px;
+  border-radius: 24.8267px;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.works-cards:hover {
+  background: var(--skin);
+  transition: all 0.4s ease-in-out;
+}
+
+.works-cards div {
+  border-radius: 24.8267px;
+  padding: 20px;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.works-cards:hover div {
+  background-color: var(--skin) !important;
+}
+
+.works-cards .rounded-div {
+  padding: 19px 24px;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  background-color: var(--skin) !important;
+}
+
+.works-cards:hover .rounded-div {
+  background-color: var(--white) !important;
+  color: var(--skin) !important;
+}
+/* ========================== cards-secton ============================== */
