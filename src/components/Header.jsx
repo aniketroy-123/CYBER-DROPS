@@ -75,7 +75,7 @@ const Header = () => {
                   </li>
 
                   <li>
-                    <button className="bg-skin py-2 px-3 fs-sm br-r-8 text-white fw-500 border-0">
+                    <button className="py-2 px-3 fs-sm br-r-8 fw-500 border-0 brown-btn">
                       Connect Wallet
                     </button>
                   </li>
@@ -171,7 +171,7 @@ const Header = () => {
                       className="py-2 py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
-                      <button className="bg-skin py-2 px-3 fs-sm br-r-8 text-white fw-500 d-sm-none border-0">
+                      <button className="brown-btn py-2 px-3 fs-sm br-r-8 fw-500 d-sm-none border-0">
                         Connect Wallet
                       </button>
                     </span>

@@ -65,9 +65,7 @@ body {
     --font-sm: 14px;
   }
 }
-
-/* ====================================  FONT SIZE START FROM HERE =========================== */
-
+/* ==================================== FONT-SIZES =========================== */
 .font-xsm {
   font-size: var(--font-xsm);
 }
@@ -120,19 +118,40 @@ body {
   font-weight: 800;
 }
 
+/* ========================== btn-hover ================================= */
 .brown-btn {
   background: var(--skin);
   padding: 12px 25px;
   border-radius: 8px;
   font-size: var(--font-lg);
   border: none;
-  color: white;
+  color: var(--white);
+  position: relative;
+  transition: all ease-in-out 0.4s ease-in-out;
+  z-index: 2;
+}
+
+.brown-btn::before {
+  content: " ";
+  width: 0;
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
   transition: all ease-in-out 0.4s;
+  left: 0px;
+  top: 0px;
+  background-color: var(--white);
+  z-index: -1;
 }
 
 .brown-btn:hover {
-  transform: translateY(-3px) scale(1.05);
+  color: #f1ac73;
 }
+
+.brown-btn:hover::before {
+  width: 100%;
+}
+/* ========================== btn-hover ================================= */
 
 .para {
   font-size: var(--font-md);
@@ -366,7 +385,6 @@ body {
     opacity: 1;
   }
 }
-
 .h-screen {
   height: 100vh;
 }
@@ -375,9 +393,7 @@ body {
   height: 100vh;
   overflow: hidden;
 }
-
 /* HEADER OVERLAY STYLES  */
-
 .back-to-top {
   position: fixed;
   bottom: 20px;
