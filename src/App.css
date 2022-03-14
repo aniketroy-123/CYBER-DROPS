@@ -1,13 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+:root {
+  --font-4xl: 72px;
+  --font-3xl: 48px;
+  --font-2xl: 28px;
+  --font-xl: 24px;
+  --font-lg: 20px;
+  --font-md: 18px;
+  --font-sm: 16px;
+  --font-xsm: 14px;
+  /* COLORS */
+  --white: #ffffff;
+  --black: #000000;
+  --skin: #f1ac73;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --font-4xl: 72px;
+    --font-3xl: 48px;
+    --font-2xl: 28px;
+    --font-xl: 24px;
+    --font-lg: 20px;
+    --font-md: 18px;
+    --font-sm: 16px;
+    --font-xsm: 14px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --font-4xl: 72px;
+    --font-3xl: 48px;
+    --font-2xl: 28px;
+    --font-xl: 24px;
+    --font-lg: 20px;
+    --font-md: 18px;
+    --font-sm: 16px;
+    --font-xsm: 14px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --font-4xl: 72px;
+    --font-3xl: 48px;
+    --font-2xl: 28px;
+    --font-xl: 24px;
+    --font-lg: 20px;
+    --font-md: 18px;
+    --font-sm: 16px;
+    --font-xsm: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --font-4xl: 72px;
+    --font-3xl: 48px;
+    --font-2xl: 28px;
+    --font-xl: 24px;
+    --font-lg: 20px;
+    --font-md: 18px;
+    --font-sm: 16px;
+    --font-xsm: 14px;
+  }
+}
+
+/* ====================================  FONT SIZE START FROM HERE =========================== */
+
+.fs-xsm {
+  font-size: var(--font-xsm);
+}
+
+.fs-sm {
+  font-size: var(--font-sm) !important;
+}
+
+.fs-md {
+  font-size: var(--font-md) !important;
+}
+
+.fs-lg {
+  font-size: var(--font-lg) !important;
+}
+
+.fs-xl {
+  font-size: var(--font-xl) !important;
+}
+
+.fs-2xl {
+  font-size: var(--font-2xl) !important;
+}
+
+.fs-3xl {
+  font-size: var(--font-3xl) !important;
+}
+
+.fs-4xl {
+  font-size: var(--font-4xl) !important;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.brown-btn {
+  background: var(--skin);
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: var(--font-lg);
+  border: none;
+  color: white;
+  transition: all ease-in-out 0.4s;
+}
+
+.brown-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+.para {
+  font-size: var(--font-md);
+  font-weight: 400;
+}
+
+.para-heading {
+  font-size: var(--font-4xl);
+  font-weight: 700;
+}
+
+.text-brown {
+  color: var(--skin);
+}
+.text-white {
+  color: var(--white) !important;
+}
+
+.bg-skin {
+  background-color: var(--skin);
+}
+
+.bg-black {
+  background-color: black;
+}
+
 /* HEADER OVERLAY STYLES  */
+.header-svg-hover img {
+  transition: all 0.5s ease-in-out;
+}
+.header-svg-hover:hover img {
+  transform: translateY(-8px);
+}
+.br-r-8 {
+  border-radius: 8px;
+}
 .navbar-wrapper {
-  background-color: rgb(143, 202, 66);
+  background: rgba(0, 0, 0, 1);
 }
 .navbar-wrapper .nav-list-items a {
   color: white;
   text-decoration: none;
   position: relative;
 }
-
+.navbar-wrapper .nav-list-items:hover a {
+  color: var(--skin);
+}
 .navbar-wrapper .nav-list-items a::after {
   content: "";
   position: absolute;
@@ -15,13 +190,21 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: rgb(240, 240, 240);
+  background-color: var(--skin);
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
 .navbar-wrapper .nav-list-items a:hover::after {
   width: 100%;
+}
+.nav-link {
+  display: block;
+  padding: 0px 10px !important;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 /* HAMBURGER ICON STYLE  */
 @media (max-width: 991.98px) {
@@ -92,7 +275,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #2ba912e8;
+    background-color: var(--black);
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -228,5 +411,11 @@
 
   100% {
     transform: translateY(0);
+  }
+}
+/* RESPONSIVE-CSS */
+@media (max-width: 540px) {
+  .nav-logo {
+    width: 56px;
   }
 }

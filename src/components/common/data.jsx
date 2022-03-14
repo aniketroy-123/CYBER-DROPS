@@ -43,25 +43,20 @@ export const headerData = [
     url: "",
   },
   {
-    title: "Story",
-    url: "story",
+    title: "About",
+    url: "About",
   },
   {
-    title: "Upgrader",
-    url: "upgrader",
+    title: "Team",
+    url: "Team",
   },
 
   {
     title: "Roadmap",
-    url: "roadmap",
+    url: "Roadmap",
   },
   {
-    title: "FAQs",
-    url: "faq",
-  },
-  {
-    title: "Team",
-
-    url: "team",
+    title: "Partners",
+    url: "Partners",
   },
 ];
