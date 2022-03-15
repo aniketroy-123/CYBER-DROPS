@@ -6,7 +6,7 @@ import logo from "../assets/images/logo.png";
 import opensea from "../assets/images/opensea.png";
 import discord from "../assets/images/discord.png";
 import twitter from "../assets/images/twitter.png";
-import m from "../assets/images/m.png";
+
 const Header = () => {
   const { showOverlay, setShowOverlay } = useScreenFixedProvider();
 
@@ -23,7 +23,7 @@ const Header = () => {
     <>
       <section className="d-flex w-100 navbar-wrapper justify-content-between py-sm-2">
         <Desktop>
-          <div className="container d-flex justify-content-between">
+          <div className="container d-flex justify-content-between container-modify">
             <div>
               <img className="cursor-pointer" src={logo} alt="" />
             </div>
@@ -68,14 +68,8 @@ const Header = () => {
                     </a>
                   </li>
 
-                  <li className="me-3 pe-1">
-                    <a className="header-svg-hover" href="">
-                      <img src={m} alt="m" />
-                    </a>
-                  </li>
-
-                  <li>
-                    <button className="bg-skin py-2 px-3 fs-sm br-r-8 text-white fw-500 border-0">
+                  <li className="ms-2">
+                    <button className="py-2 px-3 fs-sm br-r-8 fw-500 border-0 brown-btn">
                       Connect Wallet
                     </button>
                   </li>
@@ -164,12 +158,6 @@ const Header = () => {
                             <img src={twitter} alt="twitter" />
                           </a>
                         </li>
-
-                        <li className="me-3 pe-1">
-                          <a href="">
-                            <img src={m} alt="m" />
-                          </a>
-                        </li>
                       </ul>
                     </span>
                   </li>
@@ -179,7 +167,7 @@ const Header = () => {
                       className="py-2 py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
-                      <button className="bg-skin py-2 px-3 fs-sm br-r-8 text-white fw-500 d-sm-none border-0">
+                      <button className="brown-btn py-2 px-3 fs-sm br-r-8 fw-500 d-sm-none border-0">
                         Connect Wallet
                       </button>
                     </span>
@@ -219,12 +207,6 @@ const Header = () => {
                       href="https://www.twitter.com/"
                     >
                       <img src={twitter} alt="twitter" />
-                    </a>
-                  </li>
-
-                  <li className="me-3 pe-1 d-none d-sm-block">
-                    <a className="header-svg-hover" href="">
-                      <img src={m} alt="m" />
                     </a>
                   </li>
 

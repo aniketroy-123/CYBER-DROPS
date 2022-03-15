@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 body {
-  font-family: "Lato", sans-serif;
   color: white;
+  font-family: "Lato", sans-serif !important;
   background-color: black !important;
 }
 
@@ -22,7 +22,7 @@ body {
   --skin: #f1ac73;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199.98px) {
   :root {
     --font-5xl: 72px;
     --font-4xl: 48px;
@@ -73,37 +73,35 @@ body {
     --font-xsm: 14px;
   }
 }
-
-/* ====================================  FONT SIZE START FROM HERE =========================== */
-
-.fs-xsm {
+/* ==================================== FONT-SIZES =========================== */
+.font-xsm {
   font-size: var(--font-xsm);
 }
 
-.fs-sm {
+.font-sm {
   font-size: var(--font-sm) !important;
 }
 
-.fs-md {
+.font-md {
   font-size: var(--font-md) !important;
 }
 
-.fs-lg {
+.font-lg {
   font-size: var(--font-lg) !important;
 }
 
-.fs-xl {
+.font-xl {
   font-size: var(--font-xl) !important;
 }
 
-.fs-2xl {
+.font-2xl {
   font-size: var(--font-2xl) !important;
 }
 .fs-3xl {
   font-size: var(--font-3xl) !important;
 }
 
-.fs-4xl {
+.font-4xl {
   font-size: var(--font-4xl) !important;
 }
 
@@ -127,19 +125,44 @@ body {
   font-weight: 700;
 }
 
+.fw-800 {
+  font-weight: 800;
+}
+
+/* ========================== btn-hover ================================= */
 .brown-btn {
   background: var(--skin);
   padding: 12px 25px;
   border-radius: 8px;
   font-size: var(--font-lg);
   border: none;
-  color: white;
+  color: var(--white);
+  position: relative;
+  transition: all ease-in-out 0.4s ease-in-out;
+  z-index: 2;
+}
+
+.brown-btn::before {
+  content: " ";
+  width: 0;
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
   transition: all ease-in-out 0.4s;
+  left: 0px;
+  top: 0px;
+  background-color: var(--white);
+  z-index: -1;
 }
 
 .brown-btn:hover {
-  transform: translateY(-3px) scale(1.05);
+  color: #f1ac73;
 }
+
+.brown-btn:hover::before {
+  width: 100%;
+}
+/* ========================== btn-hover ================================= */
 
 .para {
   font-size: var(--font-md);
@@ -377,7 +400,6 @@ body {
     opacity: 1;
   }
 }
-
 .h-screen {
   height: 100vh;
 }
@@ -386,9 +408,7 @@ body {
   height: 100vh;
   overflow: hidden;
 }
-
 /* HEADER OVERLAY STYLES  */
-
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -396,7 +416,11 @@ body {
   z-index: 9999;
   font-size: var(--font-sm);
   color: var(--color-white);
-  background: linear-gradient(40deg, #ff00ab 29.44%, #4d00ff 81.54%);
+  background: linear-gradient(
+    40deg,
+    var(--skin) 29.44%,
+    rgba(21, 171, 255, 1) 81.54%
+  );
   border-radius: 50%;
   width: 55px;
   height: 55px;
@@ -406,6 +430,11 @@ body {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   animation: updown-element-animation 2s infinite;
+  box-shadow: 0 0 9px var(--skin);
+}
+
+.back-to-top:hover {
+  box-shadow: 0 0 18px var(--skin);
 }
 
 @keyframes updown-element-animation {
@@ -453,7 +482,7 @@ body {
 }
 .fotter-right {
   right: 0;
-  top: 77px;
+  top: -41px;
   z-index: -1;
 }
 .fotter-right img {
@@ -471,6 +500,29 @@ body {
   max-width: 372px;
 }
 /* FAQ-CSS-ENDS */
+/* PARTNER-CSS */
+.partner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../src/assets/images/partner-bg.png");
+}
+.playbit {
+  border-image-source: url("../src/assets/images/Frame\ 114.png") !important;
+  border-image-slice: 9 !important;
+  border: 8px solid;
+  border-image-repeat: round;
+}
+
+.capital {
+  border-image-source: url("../src/assets/images/patnerborder.png") !important;
+  border-image-slice: 13 !important;
+  border: 8px solid;
+  border-image-repeat: round;
+}
+.capital img {
+  max-width: 165px;
+}
+/* PARTNER-CSS-ENDS */
 /* RESPONSIVE-CSS */
 @media (min-width: 1399px) and (max-width: 1699px) {
   .container-modify {

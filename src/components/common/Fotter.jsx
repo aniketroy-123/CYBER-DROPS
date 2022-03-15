@@ -3,7 +3,6 @@ import fotterumbrela from "../../assets/images/fotterumbrela.png";
 import opensea from "../../assets/images/opensea.png";
 import discord from "../../assets/images/discord.png";
 import twitter from "../../assets/images/twitter.png";
-import m from "../../assets/images/m.png";
 import footerleft from "../../assets/images/footerleft.png";
 import faqrightblure from "../../assets/images/faqrightblure.png";
 const Fotter = () => {
@@ -50,11 +49,6 @@ const Fotter = () => {
                   <li>
                     <a href="http://www.twitter.com/">
                       <img src={twitter} alt="twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src={m} alt="m" />
                     </a>
                   </li>
                 </ul>

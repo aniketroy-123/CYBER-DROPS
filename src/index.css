@@ -1,14 +1,39 @@
-body {
-  background-color: var(--black);
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ========================== cards-secton ============================== */
+.works-cards {
+  background: linear-gradient(180deg, #f1ac73 31.68%, #15abff 100%);
+  padding: 2px;
+  border-radius: 24.8267px;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.works-cards:hover {
+  background: var(--skin);
+  transition: all 0.4s ease-in-out;
 }
+
+.works-cards div {
+  border-radius: 24.8267px;
+  padding: 20px;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.works-cards:hover div {
+  background-color: var(--skin) !important;
+}
+
+.works-cards .rounded-div {
+  line-height: 27px;
+  padding: 19px 24px;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  background-color: var(--skin) !important;
+}
+
+.works-cards:hover .rounded-div {
+  background-color: var(--white) !important;
+  color: var(--skin) !important;
+}
+/* ========================== cards-secton ============================== */
