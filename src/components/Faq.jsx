@@ -1,6 +1,8 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { faqData } from "./common/data";
+import faqside from "../assets/images/faqside.png";
+import faqrightblure from "../assets/images/faqrightblure.png";
 
 const Faq = () => {
   const [view, setView] = React.useState(null);
@@ -15,9 +17,15 @@ const Faq = () => {
 
   return (
     <section className="py-sm-5 pt-5 pb-0 position-relative" id="faq">
+      <div className="position-absolute faqleft-image">
+        <img className="w-100" src={faqside} alt="faqside" />
+      </div>
+      <div className="position-absolute faqrightblure">
+        <img className="w-100" src={faqrightblure} alt="faqrightblure" />
+      </div>
       <div className="animate-2"></div>
       <div
-        className="container"
+        className="container container-modify"
         data-aos="fade-down"
         data-aos-delay="500"
         data-aos-duration="1000"

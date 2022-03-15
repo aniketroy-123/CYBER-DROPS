@@ -7,8 +7,9 @@ body {
 }
 
 :root {
-  --font-4xl: 72px;
-  --font-3xl: 48px;
+  --font-5xl: 72px;
+  --font-4xl: 48px;
+  --font-3xl: 36px;
   --font-2xl: 28px;
   --font-xl: 24px;
   --font-lg: 20px;
@@ -23,8 +24,8 @@ body {
 
 @media (max-width: 1024px) {
   :root {
-    --font-4xl: 72px;
-    --font-3xl: 48px;
+    --font-5xl: 72px;
+    --font-4xl: 48px;
     --font-2xl: 28px;
     --font-xl: 24px;
     --font-lg: 20px;
@@ -36,8 +37,8 @@ body {
 
 @media (max-width: 991.98px) {
   :root {
-    --font-4xl: 72px;
-    --font-3xl: 48px;
+    --font-5xl: 72px;
+    --font-4xl: 48px;
     --font-2xl: 28px;
     --font-xl: 24px;
     --font-lg: 15px;
@@ -49,8 +50,8 @@ body {
 
 @media (max-width: 767.98px) {
   :root {
-    --font-4xl: 72px;
-    --font-3xl: 48px;
+    --font-5xl: 72px;
+    --font-4xl: 48px;
     --font-2xl: 28px;
     --font-xl: 24px;
     --font-lg: 15px;
@@ -62,8 +63,8 @@ body {
 
 @media (max-width: 575.98px) {
   :root {
-    --font-4xl: 72px;
-    --font-3xl: 48px;
+    --font-5xl: 72px;
+    --font-4xl: 48px;
     --font-2xl: 28px;
     --font-xl: 24px;
     --font-lg: 14px;
@@ -98,13 +99,16 @@ body {
 .fs-2xl {
   font-size: var(--font-2xl) !important;
 }
-
 .fs-3xl {
   font-size: var(--font-3xl) !important;
 }
 
 .fs-4xl {
   font-size: var(--font-4xl) !important;
+}
+
+.fs-5xl {
+  font-size: var(--font-5xl) !important;
 }
 
 .fw-400 {
@@ -417,6 +421,7 @@ body {
     transform: translateY(0);
   }
 }
+/* FAQ-CSS */
 .faq-wrapper {
   border-image-source: url("../src/assets/images/borderimage.png") !important;
   border-image-slice: 5 !important;
@@ -433,7 +438,53 @@ body {
 .mw-w-635 {
   max-width: 635px;
 }
+.faqleft-image {
+  left: 0;
+  top: 280px;
+  z-index: -1;
+}
+.faqrightblure {
+  right: 0;
+  top: 77px;
+  z-index: -1;
+}
+.faqrightblure img {
+  max-width: 368px;
+}
+.fotter-right {
+  right: 0;
+  top: 77px;
+  z-index: -1;
+}
+.fotter-right img {
+  max-width: 368px;
+}
+.border-top {
+  border-top: 1px solid #dee2e64d !important;
+}
+.fotter-left {
+  left: 0;
+  z-index: -1;
+  top: -41px;
+}
+.fotter-left img {
+  max-width: 372px;
+}
+/* FAQ-CSS-ENDS */
 /* RESPONSIVE-CSS */
+@media (min-width: 1399px) and (max-width: 1699px) {
+  .container-modify {
+    max-width: 1140px !important;
+  }
+}
+@media (max-width: 992px) {
+  .fotter-right {
+    top: -85px;
+  }
+  .fotter-left {
+    top: -102px;
+  }
+}
 @media (max-width: 540px) {
   .nav-logo {
     width: 56px;
