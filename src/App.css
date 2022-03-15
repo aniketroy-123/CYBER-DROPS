@@ -59,16 +59,19 @@ body {
     --font-sm: 16px;
     --font-xsm: 14px;
   }
+  .hero-image {
+    max-width: 200px;
+  }
 }
 
 @media (max-width: 575.98px) {
   :root {
-    --font-5xl: 72px;
-    --font-4xl: 48px;
+    --font-5xl: 45px;
+    --font-4xl: 30px;
     --font-2xl: 28px;
     --font-xl: 24px;
     --font-lg: 14px;
-    --font-md: 18px;
+    --font-md: 14px;
     --font-sm: 16px;
     --font-xsm: 14px;
   }
@@ -521,6 +524,11 @@ body {
 }
 .capital img {
   max-width: 165px;
+}
+.whatwe-side {
+  z-index: -1;
+  right: 0;
+  top: 324px;
 }
 /* PARTNER-CSS-ENDS */
 /* RESPONSIVE-CSS */

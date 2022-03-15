@@ -6,11 +6,11 @@ const Hero = () => {
     <>
       {/* <!--================================== HERO SECTION =====================================--> */}
       <section>
-        <div className="container my-xxl-3 py-5 container-modify">
+        <div className="container my-xxl-3 pb-5 py-md-5 container-modify">
           <div className="row justify-content-between align-items-center">
             <div className="col-12 col-lg-6 col-xxl-6 my-4 my-sm-5 my-lg-0 order-2 order-lg-1">
               <div className="  text-white text-center text-lg-start">
-                <h1 className="font-4xl fw-600 mb-sm-0">
+                <h1 className="fs-5xl fw-600 mb-sm-0">
                   Welcome to <br />
                   <span className="text-brown fw-800"> Cyber Drops</span>
                 </h1>
@@ -25,8 +25,12 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-            <div className="col-10 col-sm-9 col-md-6 col-lg-5 col-xxl-4 mx-auto mx-lg-0 order-1 order-lg-2">
-              <img className="w-100 ps-xl-5" src={HeroImg} alt="hero-img" />
+            <div className="col-10 col-sm-9 col-md-6 col-lg-5 col-xxl-4 mx-auto mx-lg-0 order-1 order-lg-2 text-center">
+              <img
+                className="w-100 ps-xl-5 ps-xxl-0 hero-image"
+                src={HeroImg}
+                alt="hero-img"
+              />
             </div>
           </div>
         </div>

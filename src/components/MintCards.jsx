@@ -5,7 +5,7 @@ const MintCards = () => {
     <>
       {/* <!-- =============================== HOW IT WORKS SECTION ================================== --> */}
       <section>
-        <div className="container py-4 py-sm-5 my-sm-2 container-modify">
+        <div className="container py-4 pb-sm-5 my-sm-2 mb-xxl-0 pb-xxl-0 container-modify">
           <div className="row">
             <div className="col-12">
               <h2 className="para-heading text-white text-center my-2">
@@ -13,7 +13,7 @@ const MintCards = () => {
               </h2>
             </div>
           </div>
-          <div className="row justify-content-center py-3 py-sm-5">
+          <div className="row justify-content-center pt-5 py-lg-5">
             <div className="col-10 col-md-6 col-lg-5 col-xl-3 my-4">
               <div className="works-cards text-white mx-auto mx-xxl-0">
                 <div className="bg-black d-flex flex-column align-items-center justify-content-center">
