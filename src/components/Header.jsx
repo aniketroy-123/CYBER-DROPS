@@ -25,7 +25,7 @@ const Header = () => {
         <Desktop>
           <div className="container d-flex justify-content-between">
             <div>
-              <img src={logo} alt="" />
+              <img className="cursor-pointer" src={logo} alt="" />
             </div>
             <div className="d-flex align-items-center justify-content-center">
               {headerData.map((item, index) => (
@@ -148,19 +148,27 @@ const Header = () => {
                     >
                       <ul className="list-unstyled d-flex align-items-center mb-0 mx-4 ">
                         <li>
-                          <img src={opensea} alt="opensea" />
+                          <a href="http://www.opensea.com/">
+                            <img src={opensea} alt="opensea" />
+                          </a>
                         </li>
 
                         <li className="ms-3">
-                          <img src={discord} alt="discord" />
+                          <a href="http://www.discord.com/">
+                            <img src={discord} alt="discord" />
+                          </a>
                         </li>
 
                         <li className="mx-1">
-                          <img src={twitter} alt="twitter" />
+                          <a href="https://www.twitter.com/">
+                            <img src={twitter} alt="twitter" />
+                          </a>
                         </li>
 
                         <li className="me-3 pe-1">
-                          <img src={m} alt="m" />
+                          <a href="">
+                            <img src={m} alt="m" />
+                          </a>
                         </li>
                       </ul>
                     </span>
@@ -183,24 +191,41 @@ const Header = () => {
 
           <nav className="navbar h-86 navbar-expand-lg navbar-light p-2 p-sm-3 w-100">
             <div className="d-flex justify-content-between w-100 align-items-center">
-              <img className="nav-logo" src={logo} alt="logo" />
+              <img className="nav-logo cursor-pointer" src={logo} alt="logo" />
 
               <div className="d-flex align-items-center">
                 <ul className="list-unstyled d-flex align-items-center mb-0 mx-4 ">
                   <li className="d-none d-sm-block">
-                    <img src={opensea} alt="opensea" />
+                    <a
+                      className="header-svg-hover"
+                      href="http://www.opensea.com/"
+                    >
+                      <img src={opensea} alt="opensea" />
+                    </a>
                   </li>
 
                   <li className="ms-3 d-none d-sm-block">
-                    <img src={discord} alt="discord" />
+                    <a
+                      className="header-svg-hover"
+                      href="http://www.discord.com/"
+                    >
+                      <img src={discord} alt="discord" />
+                    </a>
                   </li>
 
                   <li className="mx-1 d-none d-sm-block">
-                    <img src={twitter} alt="twitter" />
+                    <a
+                      className="header-svg-hover"
+                      href="https://www.twitter.com/"
+                    >
+                      <img src={twitter} alt="twitter" />
+                    </a>
                   </li>
 
                   <li className="me-3 pe-1 d-none d-sm-block">
-                    <img src={m} alt="m" />
+                    <a className="header-svg-hover" href="">
+                      <img src={m} alt="m" />
+                    </a>
                   </li>
 
                   <li className="d-none d-sm-block">

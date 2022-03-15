@@ -3,7 +3,7 @@
 body {
   font-family: "Lato", sans-serif;
   color: white;
-  background-color: black;
+  background-color: black !important;
 }
 
 :root {
@@ -40,7 +40,7 @@ body {
     --font-3xl: 48px;
     --font-2xl: 28px;
     --font-xl: 24px;
-    --font-lg: 20px;
+    --font-lg: 15px;
     --font-md: 18px;
     --font-sm: 16px;
     --font-xsm: 14px;
@@ -53,7 +53,7 @@ body {
     --font-3xl: 48px;
     --font-2xl: 28px;
     --font-xl: 24px;
-    --font-lg: 20px;
+    --font-lg: 15px;
     --font-md: 18px;
     --font-sm: 16px;
     --font-xsm: 14px;
@@ -66,7 +66,7 @@ body {
     --font-3xl: 48px;
     --font-2xl: 28px;
     --font-xl: 24px;
-    --font-lg: 20px;
+    --font-lg: 14px;
     --font-md: 18px;
     --font-sm: 16px;
     --font-xsm: 14px;
@@ -206,7 +206,11 @@ body {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 /* HAMBURGER ICON STYLE  */
+
 @media (max-width: 991.98px) {
   /* NAVBAR OVERLAY TOGGLE */
 
@@ -412,6 +416,22 @@ body {
   100% {
     transform: translateY(0);
   }
+}
+.faq-wrapper {
+  border-image-source: url("../src/assets/images/borderimage.png") !important;
+  border-image-slice: 5 !important;
+  border: 5px solid;
+  border-image-repeat: round;
+}
+
+.transition_03sEase {
+  transition: 0.3s ease;
+}
+.rotate-icon {
+  transform: rotate(90deg);
+}
+.mw-w-635 {
+  max-width: 635px;
 }
 /* RESPONSIVE-CSS */
 @media (max-width: 540px) {
