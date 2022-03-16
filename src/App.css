@@ -565,6 +565,12 @@ body {
   .fotter-left {
     top: -102px;
   }
+  .slick-next {
+    right: 149px !important;
+  }
+  .slick-prev {
+    left: 138px !important;
+  }
 }
 
 @media (max-width: 540px) {
@@ -572,8 +578,14 @@ body {
     width: 56px;
   }
   .carousel-card {
-    max-width: 408px;
+    max-width: 97%;
     flex-direction: column;
+  }
+  .carousel-images {
+    transform: scale(0.7);
+    margin-top: -33px;
+    margin-bottom: -59px;
+  }
 }
 
 @media (max-width: 1399.98px) {

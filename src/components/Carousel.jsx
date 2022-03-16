@@ -18,7 +18,7 @@ export default function SimpleSlider() {
     Arrows: true,
     responsive: [
       {
-        breakpoint: 1299,
+        breakpoint: 1199,
         settings: {
           dots: true,
           slidesToShow: 1,
@@ -38,9 +38,16 @@ export default function SimpleSlider() {
     ],
   };
   return (
-    <section className="py-5">
-      <div className="container container-modify">
+    <section id="Team" className="py-5">
+      <div className="container container-modify mb-5">
         <div className="row">
+          <div className="col-12">
+            <h2 className="text-center text-white font-4xl fw-700">
+              Meet the<span className="text-brown">Team</span>
+            </h2>
+          </div>
+        </div>
+        <div className="row mt-5 pt-2">
           <div className="col-12">
             <Slider {...settings}>
               <div className="d-flex carousel-card align-items-center mx-auto">

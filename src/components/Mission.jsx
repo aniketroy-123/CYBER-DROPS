@@ -5,7 +5,7 @@ const Mission = () => {
   return (
     <>
       {/* <!--================================ OUR MISSION SECTION  ================================ --> */}
-      <section>
+      <section id="About">
         <div className="container pb-5 py-lg-5 container-modify">
           <div className="row d-md-flex justify-content-between align-items-center my-xxl-3">
             <div className="col-10 col-sm-8 col-md-6 col-lg-5 col-xxl-5 mx-auto mx-lg-0">
