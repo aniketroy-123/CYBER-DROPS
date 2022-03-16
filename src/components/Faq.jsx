@@ -42,7 +42,7 @@ const Faq = () => {
             }`}
           >
             <div
-              className={`faq-question fs-lg text-white text-uppercase d-flex align-items-center justify-content-between py-3 `}
+              className={`faq-question font-lg text-white text-uppercase d-flex align-items-center justify-content-between py-3 `}
             >
               {item.question}{" "}
               <span

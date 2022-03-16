@@ -17,11 +17,11 @@ const MintCards = () => {
             <div className="col-10 col-md-6 col-lg-5 col-xl-3 my-4">
               <div className="works-cards text-white mx-auto mx-xxl-0">
                 <div className="bg-black d-flex flex-column align-items-center justify-content-center">
-                  <p className="bg-brown fs-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
+                  <p className="bg-brown font-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
                     01
                   </p>
-                  <p className="fw-700 fs-lg text-center mt-1">Mint NFT</p>
-                  <p className="fs-sm mb-0 text-center px-xl-2 px-xxl-3">
+                  <p className="fw-700 font-lg text-center mt-1">Mint NFT</p>
+                  <p className="font-sm text-center px-xl-2">
                     You must own our NFT to connect to direct management or
                     participate in governance
                   </p>
@@ -31,13 +31,13 @@ const MintCards = () => {
             <div className="col-10 col-md-6 col-lg-5 col-xl-3 my-4">
               <div className="works-cards text-white mx-auto mx-xxl-0">
                 <div className="bg-black d-flex flex-column align-items-center justify-content-center">
-                  <p className="bg-brown fs-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
+                  <p className="bg-brown font-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
                     02
                   </p>
-                  <p className="fw-700 fs-lg text-center mt-1">
+                  <p className="fw-700 font-lg text-center mt-1">
                     Verify NFT Ownership
                   </p>
-                  <p className="fs-sm mb-0 text-center px-xl-3">
+                  <p className="font-sm text-center">
                     Only Cyber Drops that are have verified are eligible to be
                     connected under direct management
                   </p>
@@ -47,13 +47,13 @@ const MintCards = () => {
             <div className="col-10 col-md-6 col-lg-5 col-xl-3 my-4">
               <div className="works-cards text-white mx-auto mx-xxl-0">
                 <div className="bg-black d-flex flex-column align-items-center justify-content-center">
-                  <p className="bg-brown fs-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
+                  <p className="bg-brown font-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
                     03
                   </p>
-                  <p className="fw-700 fs-lg text-center mt-1">
+                  <p className="fw-700 font-lg text-center mt-1">
                     Link API to your account
                   </p>
-                  <p className="fs-sm mb-0 text-center px-xl-3">
+                  <p className="font-sm text-center px-xl-3">
                     Only HODLers that submit their API key and secret will be
                     under direct management
                   </p>
@@ -63,13 +63,13 @@ const MintCards = () => {
             <div className="col-10 col-md-6 col-lg-5 col-xl-3 my-4">
               <div className="works-cards text-white mx-auto mx-xxl-0">
                 <div className="bg-black d-flex flex-column align-items-center justify-content-center">
-                  <p className="bg-brown fs-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
+                  <p className="bg-brown font-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
                     04
                   </p>
-                  <p className="fw-700 fs-lg text-center mt-1">
+                  <p className="fw-700 font-lg text-center mt-1">
                     Passive Income for life
                   </p>
-                  <p className="fs-sm mb-0 text-center">
+                  <p className="font-sm text-center">
                     As long as your HODL your Cyber Drop, you will be connected
                     under direct management
                   </p>
