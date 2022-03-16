@@ -47,17 +47,20 @@
 .roadmap-image-right1 {
   right: 0px;
   top: -80px;
+  z-index: 1;
 }
 
 .roadmap-image-right2 {
   right: 0px;
   bottom: 0px;
+  z-index: 1;
 }
 
 .roadmap-image-left {
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 1;
 }
 
 .road-map::before {

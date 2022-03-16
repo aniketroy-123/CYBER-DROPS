@@ -486,17 +486,17 @@ body {
   position: absolute;
   content: "";
 
-  width: 55%;
-  height: 55%;
+  width: 91%;
+  height: 92%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   z-index: 0;
-  filter: blur(7px);
+  filter: blur(8px);
 }
 .svg-icons:hover::after {
-  background: orangered;
+  background: #f1ac73;
 }
 .svg-icons svg {
   position: relative;
@@ -525,7 +525,7 @@ body {
   color: transparent !important;
   font-size: 34px !important;
   background-size: cover;
-  background-image: url("../src/assets/images/prevarrow.png");
+  /* background-image: url("../src/assets/images/prevarrow.png"); */
 }
 .slick-next {
   right: -14px !important;
@@ -550,6 +550,15 @@ body {
 }
 .slick-dots li {
   margin: 0 10px !important;
+}
+
+.buisness-line {
+  position: absolute;
+}
+.whatwe-side {
+  z-index: -1;
+  right: 0;
+  bottom: -158px;
 }
 /* RESPONSIVE-CSS */
 @media (min-width: 1399px) and (max-width: 1699px) {
@@ -655,6 +664,10 @@ body {
   .partner-content {
     flex-wrap: wrap;
   }
+
+  .buisness-line {
+    position: relative;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -686,4 +699,26 @@ body {
   .roadmap-image-right2 {
     bottom: -60px;
   }
+}
+.loader-fullscreen {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--color-sky-blue);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden !important;
+}
+
+.loader-fullscreen img {
+  max-width: 250px;
+  width: 100%;
+  animation: zoomIn 1s linear infinite;
 }
