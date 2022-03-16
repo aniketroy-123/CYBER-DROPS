@@ -502,8 +502,56 @@ body {
   position: relative;
   z-index: 1;
 }
-
-/* ================ RESPONSIVE-CSS ================= */
+/* carousel-css */
+.carousel-images {
+  max-width: 233px;
+}
+.carousel-card {
+  max-width: 519px;
+  border-radius: 25px;
+  background-color: var(--white);
+}
+.carousel-btn {
+  border-radius: 8px;
+  background-color: var(--skin);
+}
+.slick-next:before {
+  color: transparent !important;
+  font-size: 34px !important;
+  background-size: cover;
+  background-image: url("../src/assets/images/next-arrow.png");
+}
+.slick-prev:before {
+  color: transparent !important;
+  font-size: 34px !important;
+  background-size: cover;
+  background-image: url("../src/assets/images/prevarrow.png");
+}
+.slick-next {
+  right: -14px !important;
+}
+.slick-dots li button:before {
+  top: 7px !important;
+  left: 6px !important;
+  font-size: 15px !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 100%;
+  color: var(--white) !important;
+}
+.slick-dots li button {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  border: 2px solid white !important;
+}
+.slick-dots {
+  bottom: -46px !important;
+}
+.slick-dots li {
+  margin: 0 10px !important;
+}
+/* RESPONSIVE-CSS */
 @media (min-width: 1399px) and (max-width: 1699px) {
   .container-modify {
     max-width: 1140px !important;
@@ -517,11 +565,26 @@ body {
   .fotter-left {
     top: -102px;
   }
+  .slick-next {
+    right: 149px !important;
+  }
+  .slick-prev {
+    left: 138px !important;
+  }
 }
 
 @media (max-width: 540px) {
   .nav-logo {
     width: 56px;
+  }
+  .carousel-card {
+    max-width: 97%;
+    flex-direction: column;
+  }
+  .carousel-images {
+    transform: scale(0.7);
+    margin-top: -33px;
+    margin-bottom: -59px;
   }
 }
 

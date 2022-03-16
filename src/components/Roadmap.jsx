@@ -10,7 +10,7 @@ import RoadmapImg4 from "../assets/png/roadmap-img4.png";
 const Roadmap = () => {
   return (
     <>
-      <section class="roadmap-section py-5 my-5 position-relative">
+      <section id="Roadmap" class="roadmap-section py-5 my-5 position-relative">
         <img
           src={BlurImg}
           class="roadmap-image-right1 roadmap-bgimage position-absolute d-none d-lg-block"

@@ -27,8 +27,6 @@ const Partner = () => {
                   alt="playbit"
                 />
               </div>
-              <h6 className="font-md text-center mt-4 mb-0 fw-600">Playbit</h6>
-            </div>
 
             <div>
               <div className="py-2 capital text-center">
@@ -38,10 +36,6 @@ const Partner = () => {
                   alt="partnersecond"
                 />
               </div>
-              <h6 className="font-md text-center mt-4 mb-0 fw-600">
-                24 Capital
-              </h6>
-            </div>
 
             <div>
               <div className="py-2 capital text-center">
@@ -51,10 +45,6 @@ const Partner = () => {
                   alt="partnersecond"
                 />
               </div>
-              <h6 className="font-md text-center mt-4 mb-0 fw-600">
-                TradingHive
-              </h6>
-            </div>
 
             <div>
               <div className="py-2 capital text-center">
@@ -64,12 +54,9 @@ const Partner = () => {
                   alt="partnersecond"
                 />
               </div>
-              <h6 className="font-md text-center mt-4 mb-0 fw-600">
-                Focus Group Equities
-              </h6>
             </div>
           </div>
-        </div>
+        </section>
       </section>
     </>
   );
