@@ -160,7 +160,10 @@ const Header = () => {
                       </a>
                     </span>
                   </li>
-                  <li className="nav-item btn-img  mt-lg-1  transition-0_3sEase overflow-hidden">
+                  <li
+                    id="Team"
+                    className="nav-item btn-img  mt-lg-1  transition-0_3sEase overflow-hidden"
+                  >
                     <span
                       className="pt-3 pt-sm-3 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
