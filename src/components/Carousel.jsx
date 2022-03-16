@@ -6,7 +6,7 @@ export default function SimpleSlider() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
   };
   return (
@@ -15,17 +15,12 @@ export default function SimpleSlider() {
         <div className="row">
           <div className="col-12">
             <Slider {...settings}>
-              <div>
-                <img src={carousel} alt="" />
-              </div>
-              <div>
-                <img src={carousel} alt="" />
-              </div>
-              <div>
-                <img src={carousel} alt="" />
-              </div>
-              <div>
-                <img src={carousel} alt="" />
+              <div className="d-flex carousel-card">
+                <img className="w-100 carousel-images" src={carousel} alt="" />
+                <div>
+                  <h2 className="font-xl fw-800 ">Varun Muthu</h2>
+                  <h6>(CFO- Chief Financial Officer)</h6>
+                </div>
               </div>
             </Slider>
           </div>
