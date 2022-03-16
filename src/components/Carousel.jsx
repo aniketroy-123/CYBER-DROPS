@@ -10,19 +10,27 @@ export default function SimpleSlider() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
-      <div>
-        <img src={carousel} alt="" />
+    <section>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <Slider {...settings}>
+              <div>
+                <img src={carousel} alt="" />
+              </div>
+              <div>
+                <img src={carousel} alt="" />
+              </div>
+              <div>
+                <img src={carousel} alt="" />
+              </div>
+              <div>
+                <img src={carousel} alt="" />
+              </div>
+            </Slider>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src={carousel} alt="" />
-      </div>
-      <div>
-        <img src={carousel} alt="" />
-      </div>
-      <div>
-        <img src={carousel} alt="" />
-      </div>
-    </Slider>
+    </section>
   );
 }
