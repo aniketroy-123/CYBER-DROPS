@@ -19,9 +19,9 @@ const Header = () => {
 
   return (
     <>
-      <section className="d-flex w-100 navbar-wrapper justify-content-between py-sm-2 position-relative z-index-1">
+      <section className="d-flex w-100 navbar-wrapper justify-content-between py-sm-2 position-relative">
         <Desktop>
-          <div className="container d-flex justify-content-between container-modify">
+          <div className="container d-flex justify-content-between container-modify z-index-1">
             <div>
               <img className="cursor-pointer" src={logo} alt="" />
             </div>
