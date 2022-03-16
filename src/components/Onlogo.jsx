@@ -1,12 +1,16 @@
 import React from "react";
+import BlurImg2 from "../assets/png/blur-img-2.png";
 import threeumberla from "../assets/images/threeumberla.png";
 const Onlogo = () => {
   return (
     <>
       <section>
+        <div className="position-absolute blur-img-4 d-none d-md-block">
+          <img src={BlurImg2} alt="Blur-Img-2" />
+        </div>
         <div className="container container-modify pb-3 pb-lg-0 mb-3 my-lg-5">
-          <div className="row  d-flex justify-content-between align-items-center flex-row-reverse">
-            <div className="col-10 col-md-7 col-lg-6  mx-auto mx-lg-0">
+          <div className="row d-flex justify-content-between align-items-center flex-row-reverse">
+            <div className="z-index-1 col-10 col-md-7 col-lg-6  mx-auto mx-lg-0">
               <div className="ps-lg-5">
                 <img
                   className="w-100 ps-lg-5"
@@ -15,7 +19,7 @@ const Onlogo = () => {
                 />
               </div>
             </div>
-            <div className="col-12 my-5 col-lg-6 col-xxl-6 pt-5 pt-lg-0">
+            <div className="z-index-1 col-12 my-5 col-lg-6 col-xxl-6 pt-5 pt-lg-0">
               <div className="pe-lg-4 pe-xl-5 pe-xxl-0">
                 <h2 className="font-4xl text-white text-center text-lg-start">
                   Our <span className="text-brown">Algo</span>
