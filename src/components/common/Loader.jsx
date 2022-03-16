@@ -1,6 +1,5 @@
 import React from "react";
-// import loader from "../assets/img/loader.png";
-import loader from "../../assets/images/playbit.png";
+import loader from "../../assets/images/loader.png";
 
 const Loader = () => {
   return (
