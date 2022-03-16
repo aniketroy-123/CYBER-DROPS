@@ -3,6 +3,7 @@ import { useScreenFixedProvider } from "../contexts/ScreenFixedProvider";
 import { useMediaQuery } from "react-responsive";
 import { headerData } from "./common/data";
 import logo from "../assets/images/logo.png";
+import BlurImg1 from ".././assets/png/nav-top-blur-img.png";
 
 const Header = () => {
   const { showOverlay, setShowOverlay } = useScreenFixedProvider();
@@ -18,7 +19,7 @@ const Header = () => {
 
   return (
     <>
-      <section className="d-flex w-100 navbar-wrapper justify-content-between py-sm-2">
+      <section className="d-flex w-100 navbar-wrapper justify-content-between py-sm-2 position-relative z-index-1">
         <Desktop>
           <div className="container d-flex justify-content-between container-modify">
             <div>
@@ -310,6 +311,9 @@ const Header = () => {
             </div>
           </nav>
         </BeforeDesktop>
+        <div className="position-absolute blur-img-1 d-none d-md-block">
+          <img src={BlurImg1} alt="Blur-img-1" />
+        </div>
       </section>
     </>
   );

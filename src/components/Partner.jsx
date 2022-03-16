@@ -59,7 +59,7 @@ const Partner = () => {
               </h6>
             </div>
 
-            <div>
+            <div className="mt-md-4 mt-lg-0">
               <div className="py-2 capital text-center">
                 <img
                   className="w-100 px-2 px-lg-4 py-2"
