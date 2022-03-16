@@ -567,10 +567,6 @@ body {
     --font-sm: 16px;
     --font-xsm: 14px;
   }
-
-  .partner-content {
-    flex-wrap: wrap;
-  }
 }
 
 @media (max-width: 767.98px) {
@@ -584,8 +580,17 @@ body {
     --font-sm: 16px;
     --font-xsm: 14px;
   }
+
   .hero-image {
     max-width: 200px;
+  }
+
+  .partner {
+    background: var(--white);
+  }
+
+  .partner-content {
+    flex-wrap: wrap;
   }
 }
 

@@ -36,9 +36,7 @@
   background-color: var(--white) !important;
   color: var(--skin) !important;
 }
-/* ========================== cards-secton ============================== */
-
-/* =============================== ROADMAP CSS START FROM HERE ============================= */
+/* ========================== ROADMAP Section =========================== */
 .roadmap-section {
   background: url("../src/assets/png/roadmap-bg.png");
   background-position: center;
