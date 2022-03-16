@@ -43,7 +43,7 @@ export default function SimpleSlider() {
         <div className="row">
           <div className="col-12" data-aos="fade-top" data-aos-duration="2500">
             <h2 className="text-center text-white font-4xl fw-700">
-              Meet the<span className="text-brown">Team</span>
+              Meet the<span className="text-brown"> Team</span>
             </h2>
           </div>
         </div>

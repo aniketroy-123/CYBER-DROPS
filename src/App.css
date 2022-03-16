@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   color: white;
   font-family: "Lato", sans-serif !important;
@@ -414,7 +419,7 @@ body {
 .back-to-top {
   position: fixed;
   bottom: 20px;
-  right: 35px;
+  right: 20px;
   z-index: 9999;
   font-size: var(--font-sm);
   color: var(--color-white);
@@ -452,7 +457,6 @@ body {
     transform: translateY(0);
   }
 }
-
 /* FAQ-CSS */
 .faq-wrapper {
   border-image-source: url("../src/assets/images/borderimage.png") !important;
@@ -491,7 +495,7 @@ body {
 
 .fotter-right {
   right: 0;
-  top: -41px;
+  bottom: 0;
   z-index: -1;
 }
 
@@ -506,7 +510,7 @@ body {
 .fotter-left {
   left: 0;
   z-index: -1;
-  top: -41px;
+  bottom: 0;
 }
 
 .fotter-left img {
@@ -526,7 +530,6 @@ body {
 .partner-content {
   min-height: 40vmin;
 }
-
 /* ================ PARTNER-CSS ==================== */
 .svg-icons {
   border: 1px solid white;
@@ -577,6 +580,26 @@ body {
 .carousel-btn {
   border-radius: 8px;
   background-color: var(--skin);
+  position: relative;
+  transition: all ease-in-out 0.4s ease-in-out;
+  z-index: 2;
+}
+
+.carousel-btn::before {
+  content: " ";
+  width: 0;
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
+  transition: all ease-in-out 0.4s;
+  left: 0px;
+  top: 0px;
+  background-color: var(--black);
+  z-index: -1;
+}
+
+.carousel-btn:hover::before {
+  width: 100%;
 }
 
 .slick-next:before {
@@ -590,7 +613,7 @@ body {
   color: transparent !important;
   font-size: 34px !important;
   background-size: cover;
-  /* background-image: url("../src/assets/images/prevarrow.png"); */
+  background-image: url("../src/assets/images/prevarrow.png");
 }
 
 .slick-next {
@@ -616,7 +639,7 @@ body {
 }
 
 .slick-dots {
-  bottom: -46px !important;
+  bottom: -70px !important;
 }
 
 .slick-dots li {
@@ -775,7 +798,7 @@ body {
 @media (max-width: 1199.98px) {
   :root {
     --font-5xl: 60px;
-    --font-4xl: 38px;
+    --font-4xl: 44px;
     --font-3xl: 33px;
     --font-2xl: 26px;
     --font-xl: 22px;
@@ -853,5 +876,15 @@ body {
 
   .loader-fullscreen img {
     max-width: 70px;
+  }
+
+  .back-to-top {
+    width: 45px;
+    height: 45px;
+    right: 10px;
+  }
+
+  .slick-dots {
+    bottom: -35px !important;
   }
 }

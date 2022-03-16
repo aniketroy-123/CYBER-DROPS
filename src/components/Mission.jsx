@@ -11,7 +11,7 @@ const Mission = () => {
         <div className="position-absolute blur-img-2 d-none d-md-block">
           <img src={BlurImg2} alt="Blur-Img-2" />
         </div>
-        <div className="container pb-5 py-lg-5 container-modify">
+        <div className="container py-lg-5 container-modify">
           <div className="row d-md-flex justify-content-between align-items-center my-xxl-3">
             <div
               className="z-index-1 col-10 col-sm-8 col-md-6 col-lg-5 col-xxl-5 mx-auto mx-lg-0"

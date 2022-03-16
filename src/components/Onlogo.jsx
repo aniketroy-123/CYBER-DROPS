@@ -5,7 +5,7 @@ import threeumberla from "../assets/images/threeumberla.png";
 const Onlogo = () => {
   return (
     <>
-      <section className="position-relative">
+      <section className="position-relative py-xl-5">
         <div className="position-absolute blur-img-4 d-none d-md-block">
           <img src={BlurImg2} alt="Blur-Img-2" />
         </div>
@@ -30,7 +30,7 @@ const Onlogo = () => {
               data-aos-duration="2500"
             >
               <div className="pe-lg-4 pe-xl-5 pe-xxl-0">
-                <h2 className="font-4xl text-white text-center text-lg-start">
+                <h2 className="font-4xl text-white text-center text-lg-start mb-3 pb-1">
                   Our <span className="text-brown">Algo</span>
                 </h2>
                 <p className="para text-center text-md-start text-white opacity-75">

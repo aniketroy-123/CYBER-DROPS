@@ -128,7 +128,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="pt-3 pb-5 border-top">
+        <div className="py-3 border-top">
           <p className="text-center mb-0 font-sm fw-400 text-white opacity-50">
             Copyright By 2022
           </p>

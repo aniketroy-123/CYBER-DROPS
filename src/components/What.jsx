@@ -1,17 +1,22 @@
 import React from "react";
 import fourumberla from "../assets/images/fourumberla.png";
 import whatweside from "../assets/images/whatweside.png";
+import BlurImg2 from "../assets/png/blur-img-2.png";
+
 const What = () => {
   return (
     <>
       <section className="we-do-section position-relative">
         <div className="whatwe-side position-absolute">
-          <img className="w-100" src={whatweside} alt="" />
+          <img className="w-100" src={whatweside} alt="whatwesideImg" />
+        </div>
+        <div className="position-absolute blur-img-6 d-none d-md-block">
+          <img src={BlurImg2} alt="Blur-Img-2" />
         </div>
         <div className="container container-modify pb-5 py-lg-5 mb-md-3">
           <div className="row align-items-center justify-content-between pb-lg-2 ">
             <div
-              className="col-10 col-md-7 col-lg-6  mb-5 mb-lg-0 mx-auto mx-lg-0"
+              className="col-10 col-md-7 col-lg-6 mb-5 mb-lg-0 mx-auto mx-lg-0 z-index-1"
               data-aos="fade-right"
               data-aos-duration="2500"
             >
@@ -20,7 +25,7 @@ const What = () => {
               </div>
             </div>
             <div
-              className="col-12 col-lg-6 mt-5"
+              className="col-12 col-lg-6 mt-5 z-index-1"
               data-aos="fade-left"
               data-aos-duration="2500"
             >

@@ -209,7 +209,7 @@ const Header = () => {
                       className="py-2 py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
-                      <button className="brown-btn py-2 px-3 fs-sm br-r-8 fw-500 d-sm-none border-0">
+                      <button className="fs-2 brown-btn py-2 px-3 fs-sm br-r-8 fw-500 d-sm-none border-0">
                         Connect Wallet
                       </button>
                     </span>
