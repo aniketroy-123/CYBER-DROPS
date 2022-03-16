@@ -168,7 +168,7 @@ body {
   text-decoration: none;
   position: relative;
 }
-.navbar-wrapper .nav-list-items:hover a {
+.navbar-wrapper .nav-list-items a:hover {
   color: var(--skin);
 }
 .navbar-wrapper .nav-list-items a::after {
@@ -179,6 +179,7 @@ body {
   width: 0;
   height: 2px;
   background-color: var(--skin);
+
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -560,4 +561,30 @@ body {
     --font-sm: 16px;
     --font-xsm: 14px;
   }
+.svg-icons {
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 10px;
+  padding: 5px;
+  position: relative;
+}
+.svg-icons::after {
+  position: absolute;
+  content: "";
+
+  width: 55%;
+  height: 55%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 0;
+  filter: blur(7px);
+}
+.svg-icons:hover::after {
+  background: orangered;
+}
+.svg-icons svg {
+  position: relative;
+  z-index: 1;
 }
