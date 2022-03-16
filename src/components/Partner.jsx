@@ -3,7 +3,6 @@ import playbit from "../assets/png/playbit-img.png";
 import partnersecond from "../assets/png/partner-24-img.png";
 import trading from "../assets/png/Trading-hive-img.png";
 import focusgroup from "../assets/png/Focus-group-img.png";
-
 const Partner = () => {
   return (
     <>
@@ -16,7 +15,6 @@ const Partner = () => {
           </div>
         </div>
       </div>
-
       <section className="partner mb-5 mb-lg-0 py-4 py-sm-5 position-relative">
         <div className="container py-md-5">
           <div className="d-flex justify-content-center align-items-center partner-content">
@@ -32,7 +30,6 @@ const Partner = () => {
                 Playbit
               </h6>
             </div>
-
             <div>
               <div className="py-2 capital text-center">
                 <img
@@ -45,7 +42,6 @@ const Partner = () => {
                 24 Capital
               </h6>
             </div>
-
             <div>
               <div className="py-2 capital text-center">
                 <img
@@ -58,8 +54,7 @@ const Partner = () => {
                 TradingHive
               </h6>
             </div>
-
-            <div className="mt-md-4 mt-lg-0">
+            <div className="mt-4 mt-lg-0">
               <div className="py-2 capital text-center">
                 <img
                   className="w-100 px-2 px-lg-4 py-2"
@@ -73,7 +68,6 @@ const Partner = () => {
             </div>
           </div>
         </div>
-
         <div className="buisness-line w-100 mt-4 mt-md-0">
           <p className="font-md text-brown fw-bold text-center">
             For business and collaborations, contact us team@cyberdrops.finance
@@ -83,5 +77,4 @@ const Partner = () => {
     </>
   );
 };
-
 export default Partner;

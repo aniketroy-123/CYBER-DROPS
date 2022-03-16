@@ -14,7 +14,7 @@ export default function SimpleSlider() {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplaySpeed: 1200,
-    autoplay: false,
+    autoplay: true,
     Arrows: true,
     responsive: [
       {
