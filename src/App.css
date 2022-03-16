@@ -551,6 +551,10 @@ body {
 .slick-dots li {
   margin: 0 10px !important;
 }
+
+.buisness-line {
+  position: absolute;
+}
 /* RESPONSIVE-CSS */
 @media (min-width: 1399px) and (max-width: 1699px) {
   .container-modify {
@@ -654,6 +658,10 @@ body {
 
   .partner-content {
     flex-wrap: wrap;
+  }
+
+  .buisness-line {
+    position: relative;
   }
 }
 

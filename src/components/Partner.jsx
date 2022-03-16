@@ -16,7 +16,8 @@ const Partner = () => {
           </div>
         </div>
       </div>
-      <section className="partner py-5">
+
+      <section className="partner mb-5 mb-lg-0 py-4 py-sm-5 position-relative">
         <div className="container py-md-5">
           <div className="d-flex justify-content-center align-items-center partner-content">
             <div>
@@ -27,6 +28,10 @@ const Partner = () => {
                   alt="playbit"
                 />
               </div>
+              <h6 className="font-md text-center mb-4 mt-md-4 mb-md-0 fw-600">
+                Playbit
+              </h6>
+            </div>
 
             <div>
               <div className="py-2 capital text-center">
@@ -36,6 +41,10 @@ const Partner = () => {
                   alt="partnersecond"
                 />
               </div>
+              <h6 className="font-md text-center mb-4 mt-md-4 mb-md-0 fw-600">
+                24 Capital
+              </h6>
+            </div>
 
             <div>
               <div className="py-2 capital text-center">
@@ -45,6 +54,10 @@ const Partner = () => {
                   alt="partnersecond"
                 />
               </div>
+              <h6 className="font-md text-center mb-4 mt-md-4 mb-md-0 fw-600">
+                TradingHive
+              </h6>
+            </div>
 
             <div>
               <div className="py-2 capital text-center">
@@ -54,9 +67,18 @@ const Partner = () => {
                   alt="partnersecond"
                 />
               </div>
+              <h6 className="font-md text-center mb-4 mt-md-4 mb-md-0 fw-600">
+                Focus Group Equities
+              </h6>
             </div>
           </div>
-        </section>
+        </div>
+
+        <div className="buisness-line w-100 mt-4 mt-md-0">
+          <p className="font-md text-brown fw-bold text-center">
+            For business and collaborations, contact us team@cyberdrops.finance
+          </p>
+        </div>
       </section>
     </>
   );
