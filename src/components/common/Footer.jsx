@@ -34,21 +34,6 @@ const Footer = () => {
               </p>
               <div>
                 <ul className="list-unstyled d-flex align-items-center justify-content-center">
-<<<<<<< HEAD:src/components/common/Footer.jsx
-                  <li>
-                    <a href="http://www.opensea.com/" target="_blank">
-                      <img src={opensea} alt="opensea" />
-                    </a>
-                  </li>
-                  <li className="ms-2 ps-1">
-                    <a href="https://www.discord.com/" target="_blank">
-                      <img src={discord} alt="discord" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.twitter.com/" target="_blank" s>
-                      <img src={twitter} alt="twitter" />
-=======
                   <li className="svg-icons">
                     <a
                       className="header-svg-hover"
@@ -128,7 +113,6 @@ const Footer = () => {
                           fill="white"
                         />
                       </svg>
->>>>>>> 945e4965a5e95661af4388e8316aeab76f3031ef:src/components/common/Fotter.jsx
                     </a>
                   </li>
                 </ul>
