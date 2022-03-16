@@ -532,25 +532,7 @@ body {
   top: 324px;
 }
 /* PARTNER-CSS-ENDS */
-/* RESPONSIVE-CSS */
-@media (min-width: 1399px) and (max-width: 1699px) {
-  .container-modify {
-    max-width: 1140px !important;
-  }
-}
-@media (max-width: 992px) {
-  .fotter-right {
-    top: -85px;
-  }
-  .fotter-left {
-    top: -102px;
-  }
-}
-@media (max-width: 540px) {
-  .nav-logo {
-    width: 56px;
-  }
-}
+
 .svg-icons {
   border: 1px solid white;
   border-radius: 50%;
@@ -580,9 +562,73 @@ body {
 }
 /* carousel-css */
 .carousel-images {
-  max-width: 200px;
+  max-width: 233px;
 }
 .carousel-card {
+  max-width: 519px;
   border-radius: 25px;
   background-color: var(--white);
+}
+.carousel-btn {
+  border-radius: 8px;
+  background-color: var(--skin);
+}
+.slick-next:before {
+  color: transparent !important;
+  font-size: 34px !important;
+  background-size: cover;
+  background-image: url("../src/assets/images/next-arrow.png");
+}
+.slick-prev:before {
+  color: transparent !important;
+  font-size: 34px !important;
+  background-size: cover;
+  background-image: url("../src/assets/images/prevarrow.png");
+}
+.slick-next {
+  right: -14px !important;
+}
+.slick-dots li button:before {
+  top: 7px !important;
+  left: 6px !important;
+  font-size: 15px !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 100%;
+  color: var(--white) !important;
+}
+.slick-dots li button {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  border: 2px solid white !important;
+}
+.slick-dots {
+  bottom: -46px !important;
+}
+.slick-dots li {
+  margin: 0 10px !important;
+}
+/* RESPONSIVE-CSS */
+@media (min-width: 1399px) and (max-width: 1699px) {
+  .container-modify {
+    max-width: 1140px !important;
+  }
+}
+@media (max-width: 992px) {
+  .fotter-right {
+    top: -85px;
+  }
+  .fotter-left {
+    top: -102px;
+  }
+}
+@media (max-width: 540px) {
+  .nav-logo {
+    width: 56px;
+  }
+  .carousel-card {
+    max-width: 408px;
+    flex-direction: column;
+  }
 }
