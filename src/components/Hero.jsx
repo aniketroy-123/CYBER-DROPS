@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       {/* <!--================================== HERO SECTION =====================================--> */}
-      <section>
+      <section id="Home">
         <div className="container my-xxl-3 pb-5 py-md-5 container-modify">
           <div className="row justify-content-between align-items-center">
             <div className="col-12 col-lg-6 col-xxl-6 my-4 my-sm-5 my-lg-0 order-2 order-lg-1">

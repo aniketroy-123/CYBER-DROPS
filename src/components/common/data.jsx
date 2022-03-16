@@ -26,7 +26,7 @@ export const faqData = [
 export const headerData = [
   {
     title: "Home",
-    url: "",
+    url: "Home",
   },
   {
     title: "About",
