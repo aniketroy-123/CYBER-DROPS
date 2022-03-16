@@ -19,7 +19,7 @@ const Partner = () => {
       <section className="partner py-5">
         <div className="container py-md-5">
           <div className="d-flex justify-content-center align-items-center partner-content">
-            <div>
+            
               <div className="py-2 playbit text-center">
                 <img
                   className="w-100 px-2 px-lg-4 py-2"
@@ -28,7 +28,7 @@ const Partner = () => {
                 />
               </div>
 
-            <div>
+          
               <div className="py-2 capital text-center">
                 <img
                   className="w-100 px-2 px-lg-4 py-2"
@@ -37,7 +37,7 @@ const Partner = () => {
                 />
               </div>
 
-            <div>
+           
               <div className="py-2 capital text-center">
                 <img
                   className="w-100 px-2 px-lg-4 py-2"
@@ -46,7 +46,7 @@ const Partner = () => {
                 />
               </div>
 
-            <div>
+           
               <div className="py-2 capital text-center">
                 <img
                   className="w-100 px-2 px-lg-4 py-2"
@@ -58,7 +58,11 @@ const Partner = () => {
           </div>
         </section>
       </section>
-    </>
+    
+          
+          
+          </>
+
   );
 };
 
