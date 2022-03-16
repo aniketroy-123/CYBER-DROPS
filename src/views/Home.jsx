@@ -10,6 +10,7 @@ import Onlogo from "../components/Onlogo";
 import What from "../components/What";
 import Juperverse from "../components/Juperverse";
 import Carousel from "../components/Carousel";
+import Roadmap from "../components/Roadmap";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <MintCards />
       <Juperverse />
       <Carousel />
+      <Roadmap />
       <Faq />
       <Footer />
       <BackToTop />

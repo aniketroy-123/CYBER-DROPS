@@ -30,7 +30,7 @@ const Faq = () => {
         data-aos-delay="500"
         data-aos-duration="1000"
       >
-        <h2 className="faq-heading ps-sm-3 text-gradient mb-5 pb-2 text-white text-center fs-3xl">
+        <h2 className="faq-heading ps-sm-3 text-gradient mb-5 pb-2 text-white text-center font-4xl">
           <span className="text-brown">FAQ</span> ’s
         </h2>
         {faqData.map((item, index) => (
@@ -42,7 +42,7 @@ const Faq = () => {
             }`}
           >
             <div
-              className={`faq-question fs-lg text-white text-uppercase d-flex align-items-center justify-content-between pt-2 pb-3 `}
+              className={`faq-question fs-lg text-white text-uppercase d-flex align-items-center justify-content-between py-3 `}
             >
               {item.question}{" "}
               <span

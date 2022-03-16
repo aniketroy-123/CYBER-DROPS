@@ -21,61 +21,6 @@ body {
   --black: #000000;
   --skin: #f1ac73;
 }
-
-@media (max-width: 1199.98px) {
-  :root {
-    --font-5xl: 72px;
-    --font-4xl: 48px;
-    --font-2xl: 28px;
-    --font-xl: 24px;
-    --font-lg: 20px;
-    --font-md: 18px;
-    --font-sm: 16px;
-    --font-xsm: 14px;
-  }
-}
-
-@media (max-width: 991.98px) {
-  :root {
-    --font-5xl: 72px;
-    --font-4xl: 48px;
-    --font-2xl: 28px;
-    --font-xl: 24px;
-    --font-lg: 15px;
-    --font-md: 18px;
-    --font-sm: 16px;
-    --font-xsm: 14px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  :root {
-    --font-5xl: 72px;
-    --font-4xl: 48px;
-    --font-2xl: 28px;
-    --font-xl: 24px;
-    --font-lg: 15px;
-    --font-md: 18px;
-    --font-sm: 16px;
-    --font-xsm: 14px;
-  }
-  .hero-image {
-    max-width: 200px;
-  }
-}
-
-@media (max-width: 575.98px) {
-  :root {
-    --font-5xl: 45px;
-    --font-4xl: 30px;
-    --font-2xl: 28px;
-    --font-xl: 24px;
-    --font-lg: 14px;
-    --font-md: 14px;
-    --font-sm: 16px;
-    --font-xsm: 14px;
-  }
-}
 /* ==================================== FONT-SIZES =========================== */
 .font-xsm {
   font-size: var(--font-xsm);
@@ -100,7 +45,12 @@ body {
 .font-2xl {
   font-size: var(--font-2xl) !important;
 }
+
 .fs-3xl {
+  font-size: var(--font-3xl) !important;
+}
+
+.font-3xl {
   font-size: var(--font-3xl) !important;
 }
 
@@ -109,6 +59,9 @@ body {
 }
 
 .fs-5xl {
+  font-size: var(--font-5xl) !important;
+}
+.font-5xl {
   font-size: var(--font-5xl) !important;
 }
 
@@ -180,8 +133,13 @@ body {
 .text-brown {
   color: var(--skin);
 }
+
 .text-white {
   color: var(--white) !important;
+}
+
+.color-black {
+  color: var(--black) !important;
 }
 
 .bg-skin {
@@ -509,30 +467,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("../src/assets/images/partner-bg.png");
-}
-.playbit {
-  border-image-source: url("../src/assets/images/Frame\ 114.png") !important;
-  border-image-slice: 9 !important;
-  border: 8px solid;
-  border-image-repeat: round;
+  min-height: 56vmin;
+  background-position-x: center;
 }
 
-.capital {
-  border-image-source: url("../src/assets/images/patnerborder.png") !important;
-  border-image-slice: 13 !important;
-  border: 8px solid;
-  border-image-repeat: round;
+.partner-content {
+  min-height: 40vmin;
 }
-.capital img {
-  max-width: 165px;
-}
-.whatwe-side {
-  z-index: -1;
-  right: 0;
-  top: 324px;
-}
-/* PARTNER-CSS-ENDS */
-
+/* ================ PARTNER-CSS ==================== */
 .svg-icons {
   border: 1px solid white;
   border-radius: 50%;
@@ -615,6 +557,7 @@ body {
     max-width: 1140px !important;
   }
 }
+
 @media (max-width: 992px) {
   .fotter-right {
     top: -85px;
@@ -623,6 +566,7 @@ body {
     top: -102px;
   }
 }
+
 @media (max-width: 540px) {
   .nav-logo {
     width: 56px;
@@ -630,5 +574,99 @@ body {
   .carousel-card {
     max-width: 408px;
     flex-direction: column;
+}
+
+@media (max-width: 1399.98px) {
+  .partner-content {
+    min-height: 43vmin;
+  }
+
+  .roadmap-ul-right {
+    right: -30px;
+  }
+
+  .roadmap-ul-left {
+    left: 40px;
+  }
+
+  .roadmap-ul-left-2 {
+    left: 68px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  :root {
+    --font-5xl: 72px;
+    --font-4xl: 48px;
+    --font-2xl: 28px;
+    --font-xl: 24px;
+    --font-lg: 20px;
+    --font-md: 18px;
+    --font-sm: 16px;
+    --font-xsm: 14px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --font-5xl: 72px;
+    --font-4xl: 48px;
+    --font-2xl: 28px;
+    --font-xl: 24px;
+    --font-lg: 15px;
+    --font-md: 18px;
+    --font-sm: 16px;
+    --font-xsm: 14px;
+  }
+
+  .partner-content {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --font-5xl: 72px;
+    --font-4xl: 48px;
+    --font-2xl: 28px;
+    --font-xl: 24px;
+    --font-lg: 15px;
+    --font-md: 18px;
+    --font-sm: 16px;
+    --font-xsm: 14px;
+  }
+  .hero-image {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --font-5xl: 45px;
+    --font-4xl: 30px;
+    --font-2xl: 28px;
+    --font-xl: 24px;
+    --font-lg: 14px;
+    --font-md: 14px;
+    --font-sm: 16px;
+    --font-xsm: 14px;
+  }
+
+  .roadmap-phase-circle-img {
+    width: 34px;
+  }
+
+  .road-map::before {
+    top: 33px;
+    height: calc(100% + 110px);
+  }
+
+  .roadmap-section:before {
+    filter: blur(30px);
+    height: 30px;
+  }
+
+  .roadmap-image-right2 {
+    bottom: -60px;
   }
 }
