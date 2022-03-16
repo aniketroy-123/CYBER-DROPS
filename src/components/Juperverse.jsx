@@ -6,7 +6,11 @@ const Juperverse = () => {
       <section className="jupiverse-section mb-4 my-xl-5 py-xl-5 mt-xxl-0 pt-xxl-0">
         <div className="container container-modify py-4">
           <div className="row justify-content-center   align-items-center">
-            <div className="col-10 col-xl-6 order-2 order-lg-1 mt-5 mt-lg-0">
+            <div
+              className="col-10 col-xl-6 order-2 order-lg-1 mt-5 mt-lg-0"
+              data-aos="fade-right"
+              data-aos-duration="2500"
+            >
               <div className="jupiverse-text text-center text-lg-start pe-lg-1 pe-xl-2 me-lg-3 me-xl-0">
                 <h2 className="para-heading mt-3 pt-1 text-white">
                   The <span className="text-brown">Jupiverse</span>
@@ -24,7 +28,11 @@ const Juperverse = () => {
                 </p>
               </div>
             </div>
-            <div className="col-9 col-sm-6 col-xl-5 order-1 order-lg-2 mt-lg-5">
+            <div
+              className="col-9 col-sm-6 col-xl-5 order-1 order-lg-2 mt-lg-5"
+              data-aos="fade-left"
+              data-aos-duration="2500"
+            >
               <img className="w-100" src={juperverse} alt="juperverse" />
             </div>
           </div>

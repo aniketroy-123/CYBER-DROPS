@@ -9,13 +9,21 @@ const What = () => {
           <img className="w-100" src={whatweside} alt="" />
         </div>
         <div className="container container-modify pb-5 py-lg-5 mb-md-3">
-          <div className="row  align-items-center justify-content-between pb-lg-2 ">
-            <div className="col-10 col-md-7 col-lg-6  mb-5 mb-lg-0 mx-auto mx-lg-0">
+          <div className="row align-items-center justify-content-between pb-lg-2 ">
+            <div
+              className="col-10 col-md-7 col-lg-6  mb-5 mb-lg-0 mx-auto mx-lg-0"
+              data-aos="fade-right"
+              data-aos-duration="2500"
+            >
               <div className="me-md-4 me-xxl-5">
                 <img className="w-100" src={fourumberla} alt="fourumberla" />
               </div>
             </div>
-            <div className="col-12 col-lg-6  mt-5">
+            <div
+              className="col-12 col-lg-6 mt-5"
+              data-aos="fade-left"
+              data-aos-duration="2500"
+            >
               <div className="ms-lg-4 ms-xxl-5">
                 <h2 className="font-4xl text-white text-center text-lg-start">
                   What <span className="text-brown">we do</span>

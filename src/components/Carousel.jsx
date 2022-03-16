@@ -41,14 +41,14 @@ export default function SimpleSlider() {
     <section id="Team" className="py-5">
       <div className="container container-modify mb-5">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12" data-aos="fade-top" data-aos-duration="2500">
             <h2 className="text-center text-white font-4xl fw-700">
               Meet the<span className="text-brown">Team</span>
             </h2>
           </div>
         </div>
         <div className="row mt-5 pt-2">
-          <div className="col-12">
+          <div className="col-12" data-aos="fade-top" data-aos-duration="2500">
             <Slider {...settings}>
               <div className="d-flex carousel-card align-items-center mx-auto">
                 <img className="w-100 carousel-images" src={carousel} alt="" />

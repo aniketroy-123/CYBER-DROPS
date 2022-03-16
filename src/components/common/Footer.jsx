@@ -15,7 +15,11 @@ const Footer = () => {
         </div>
         <div className="container container-modified ">
           <div className="row">
-            <div className="col-6 col-sm-5 col-md-3 col-xxl-2 mx-auto">
+            <div
+              className="col-6 col-sm-5 col-md-3 col-xxl-2 mx-auto"
+              data-aos="zoom-in"
+              data-aos-duration="2500"
+            >
               <a href="#">
                 <img
                   className="w-100"
@@ -26,7 +30,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-sm-11 col-md-9 col-lg-7 col-xl-6 col-xxl-5 px-sm-4 mx-auto  ">
+            <div
+              className="col-12 col-sm-11 col-md-9 col-lg-7 col-xl-6 col-xxl-5 px-sm-4 mx-auto"
+              data-aos="zoom-in"
+              data-aos-duration="2500"
+            >
               <h5 className="text-brown fs-3xl text-center">Cyber Drops</h5>
               <p className="para text-center mb-3 text-white">
                 Viverra metus viverra rhoncus eget quam suspendisse diam amet,

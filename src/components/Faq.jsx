@@ -26,9 +26,8 @@ const Faq = () => {
       <div className="animate-2"></div>
       <div
         className="container container-modify"
-        data-aos="fade-down"
-        data-aos-delay="500"
-        data-aos-duration="1000"
+        data-aos="fade-up"
+        data-aos-duration="2500"
       >
         <h2 className="faq-heading ps-sm-3 text-gradient mb-5 pb-2 text-white text-center font-4xl">
           <span className="text-brown">FAQ</span> ’s

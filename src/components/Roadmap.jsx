@@ -29,7 +29,7 @@ const Roadmap = () => {
 
         <div class="container container-modified py-5">
           <div class="row text-white">
-            <div class="col-12">
+            <div class="col-12" data-aos="fade-top" data-aos-duration="2500">
               <h3 class="para-heading text-center">
                 Road<span class="text-brown">Map</span>
               </h3>
@@ -47,7 +47,11 @@ const Roadmap = () => {
                       alt="roadmap-image"
                     />
                   </div>
-                  <ul class="mb-0 fs-sm ps-0 roadmap-ul-right mx-auto mx-sm-0">
+                  <ul
+                    class="mb-0 fs-sm ps-0 roadmap-ul-right mx-auto mx-sm-0"
+                    data-aos="fade-left"
+                    data-aos-duration="2500"
+                  >
                     <li class="list-unstyled mb-1 fw-600 font-xl">Phase 1</li>
                     <li class="list-unstyled my-1 font-sm fw-400">
                       1000 Drops Launch on Ethereum!
@@ -72,7 +76,11 @@ const Roadmap = () => {
                       alt="roadmap-image"
                     />
                   </div>
-                  <ul class="mb-0 fs-sm text-sm-end mb-1 ps-0 roadmap-ul-left roadmap-ul-left-2 mx-auto mx-sm-0">
+                  <ul
+                    class="mb-0 fs-sm text-sm-end mb-1 ps-0 roadmap-ul-left roadmap-ul-left-2 mx-auto mx-sm-0"
+                    data-aos="fade-right"
+                    data-aos-duration="2500"
+                  >
                     <li class="list-unstyled my-1 fw-600 font-xl">Phase 2</li>
                     <li class="list-unstyled my-1 font-sm fw-400">
                       Our First Airdrop!
@@ -97,7 +105,11 @@ const Roadmap = () => {
                       alt="roadmap-image"
                     />
                   </div>
-                  <ul class="mb-0 fs-sm ps-0 roadmap-ul-right mx-auto mx-sm-0">
+                  <ul
+                    class="mb-0 fs-sm ps-0 roadmap-ul-right mx-auto mx-sm-0"
+                    data-aos="fade-left"
+                    data-aos-duration="2500"
+                  >
                     <li class="list-unstyled mb-1 fw-600 font-xl">Phase 3</li>
                     <li class="list-unstyled my-1 font-sm fw-400">
                       Cyber Celebs come on Ethereum!
@@ -122,7 +134,11 @@ const Roadmap = () => {
                       alt="roadmap-image"
                     />
                   </div>
-                  <ul class="mb-0 fs-sm text-sm-end mb-1 ps-0 roadmap-ul-left mx-auto mx-sm-0">
+                  <ul
+                    class="mb-0 fs-sm text-sm-end mb-1 ps-0 roadmap-ul-left mx-auto mx-sm-0"
+                    data-aos="fade-right"
+                    data-aos-duration="2500"
+                  >
                     <li class="list-unstyled my-1 fw-600 font-xl">Phase 4</li>
                     <li class="list-unstyled my-1 font-sm fw-400">
                       Dashboard!

@@ -8,14 +8,21 @@ const Partner = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-12">
-            <h2 className="text-center font-4xl fw-600 text-white py-4 py-sm-5 py-md-0">
+          <div className="col-12" data-aos="fade-top" data-aos-duration="2500">
+            <h2
+              className="text-center font-4xl fw-600 text-white py-4 py-sm-5 py-md-0"
+              id="Partners"
+            >
               Part<span className="text-brown ">ners</span>
             </h2>
           </div>
         </div>
       </div>
-      <section className="partner mb-5 mb-lg-0 py-4 py-sm-5 position-relative">
+      <section
+        className="partner mb-5 mb-lg-0 py-4 py-sm-5 position-relative"
+        data-aos="fade-top"
+        data-aos-duration="2500"
+      >
         <div className="container py-md-5">
           <div className="d-flex justify-content-center align-items-center partner-content">
             <div>

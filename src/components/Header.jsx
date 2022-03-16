@@ -143,7 +143,10 @@ const Header = () => {
                       className="py-2 py-sm-4 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
-                      <a className="nav-link fs-2 text-white text-decoration-none">
+                      <a
+                        className="nav-link px-0 fs-2 text-white text-decoration-none"
+                        href="#Home"
+                      >
                         Home
                       </a>
                     </span>
@@ -154,39 +157,49 @@ const Header = () => {
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
-                        href="#story"
-                        className="nav-link fs-2 text-white text-decoration-none "
+                        href="#About"
+                        className="nav-link px-0 fs-2 text-white text-decoration-none"
                       >
                         About
                       </a>
                     </span>
                   </li>
-                  <li
-                    id="Team"
-                    className="nav-item btn-img  mt-lg-1  transition-0_3sEase overflow-hidden"
-                  >
+                  <li className=" transition-0_3sEase overflow-hidden">
                     <span
-                      className="pt-3 pt-sm-3 d-inline-block cursor-pointer"
+                      className="py-2 py-sm-2 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
-                        href="#upgrader"
-                        className="nav-link fs-2 text-white text-decoration-none"
+                        href="#Team"
+                        className="nav-link px-0 fs-2 text-white text-decoration-none"
                       >
                         Team
                       </a>
                     </span>
                   </li>
-                  <li className="nav-item btn-img mt-2  mt-lg-1  transition-0_3sEase overflow-hidden">
+                  <li className=" transition-0_3sEase overflow-hidden">
                     <span
-                      className="pt-3 pt-sm-3 d-inline-block cursor-pointer"
+                      className="py-2 py-sm-2 d-inline-block cursor-pointer"
                       onClick={() => setShowOverlay(false)}
                     >
                       <a
-                        href="#roadmap"
-                        className="nav-link fs-2 text-white text-decoration-none"
+                        href="#Roadmap"
+                        className="nav-link px-0 fs-2 text-white text-decoration-none"
                       >
                         Roadmap
+                      </a>
+                    </span>
+                  </li>
+                  <li className=" transition-0_3sEase overflow-hidden">
+                    <span
+                      className="py-2 py-sm-2 d-inline-block cursor-pointer"
+                      onClick={() => setShowOverlay(false)}
+                    >
+                      <a
+                        href="#Partners"
+                        className="nav-link px-0 fs-2 text-white text-decoration-none"
+                      >
+                        Partners
                       </a>
                     </span>
                   </li>
