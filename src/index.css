@@ -37,3 +37,89 @@
   color: var(--skin) !important;
 }
 /* ========================== cards-secton ============================== */
+
+/* =============================== ROADMAP CSS START FROM HERE ============================= */
+.roadmap-section {
+  background: url("../src/assets/png/roadmap-bg.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vmin;
+}
+
+.roadmap-image-right1 {
+  right: 0px;
+  top: -80px;
+}
+
+.roadmap-image-right2 {
+  right: 0px;
+  bottom: 0px;
+}
+
+.roadmap-image-left {
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.road-map::before {
+  content: " ";
+  position: absolute;
+  height: calc(100% + 48px);
+  width: 2px;
+  border-left: dashed 3px white;
+  top: 70px;
+  left: 50%;
+  transform: translateX(50%);
+}
+
+.road-map-col::before {
+  content: " ";
+  position: absolute;
+  height: 116px;
+  width: 2px;
+  border-left: dashed 2px white;
+  top: -20px;
+  left: 50%;
+  transform: rotate(90deg) translatey(-35px);
+}
+
+.road-map-col-left::before {
+  transform: rotate(90deg) translatey(calc(50% + -20px));
+}
+
+.road-map-col::after {
+  content: " ";
+  position: absolute;
+  height: 13px;
+  width: 13px;
+  background-color: var(--skin);
+  border-radius: 50%;
+  top: 25px;
+  left: calc(50% + 90px);
+  transform: translateY(50%);
+}
+
+.road-map-col-left::after {
+  left: calc(50% - 104px);
+}
+
+.road-map-lastcol::before {
+  display: none;
+}
+
+.roadmap-ul-right {
+  position: absolute;
+  top: 0px;
+  right: 50px;
+}
+
+.roadmap-ul-left {
+  position: absolute;
+  top: 0px;
+  left: 113px;
+}
+
+.roadmap-ul-left-2 {
+  left: 138px;
+}

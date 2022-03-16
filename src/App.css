@@ -474,8 +474,35 @@ body {
 .partner-content {
   min-height: 40vmin;
 }
-
 /* ================ PARTNER-CSS ==================== */
+.svg-icons {
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 10px;
+  padding: 5px;
+  position: relative;
+}
+.svg-icons::after {
+  position: absolute;
+  content: "";
+
+  width: 55%;
+  height: 55%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 0;
+  filter: blur(7px);
+}
+.svg-icons:hover::after {
+  background: orangered;
+}
+.svg-icons svg {
+  position: relative;
+  z-index: 1;
+}
+
 /* ================ RESPONSIVE-CSS ================= */
 @media (min-width: 1399px) and (max-width: 1699px) {
   .container-modify {
@@ -501,6 +528,18 @@ body {
 @media (max-width: 1399.98px) {
   .partner-content {
     min-height: 43vmin;
+  }
+
+  .roadmap-ul-right {
+    right: -30px;
+  }
+
+  .roadmap-ul-left {
+    left: 40px;
+  }
+
+  .roadmap-ul-left-2 {
+    left: 68px;
   }
 }
 
@@ -561,31 +600,4 @@ body {
     --font-sm: 16px;
     --font-xsm: 14px;
   }
-}
-.svg-icons {
-  border: 1px solid white;
-  border-radius: 50%;
-  line-height: 10px;
-  padding: 5px;
-  position: relative;
-}
-.svg-icons::after {
-  position: absolute;
-  content: "";
-
-  width: 55%;
-  height: 55%;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  z-index: 0;
-  filter: blur(7px);
-}
-.svg-icons:hover::after {
-  background: orangered;
-}
-.svg-icons svg {
-  position: relative;
-  z-index: 1;
 }
