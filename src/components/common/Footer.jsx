@@ -3,7 +3,7 @@ import fotterumbrela from "../../assets/images/fotterumbrela.png";
 
 import footerleft from "../../assets/images/footerleft.png";
 import faqrightblure from "../../assets/images/faqrightblure.png";
-const Fotter = () => {
+const Footer = () => {
   return (
     <>
       <section className="pt-5 mt-xl-5 position-relative">
@@ -131,4 +131,4 @@ const Fotter = () => {
   );
 };
 
-export default Fotter;
+export default Footer;
