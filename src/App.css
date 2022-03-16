@@ -600,4 +600,22 @@ body {
     --font-sm: 16px;
     --font-xsm: 14px;
   }
+
+  .roadmap-phase-circle-img {
+    width: 34px;
+  }
+
+  .road-map::before {
+    top: 33px;
+    height: calc(100% + 110px);
+  }
+
+  .roadmap-section:before {
+    filter: blur(30px);
+    height: 30px;
+  }
+
+  .roadmap-image-right2 {
+    bottom: -60px;
+  }
 }

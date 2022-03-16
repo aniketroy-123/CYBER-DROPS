@@ -112,14 +112,45 @@
   position: absolute;
   top: 0px;
   right: 50px;
+  z-index: 1;
 }
 
 .roadmap-ul-left {
   position: absolute;
   top: 0px;
   left: 113px;
+  z-index: 1;
 }
 
 .roadmap-ul-left-2 {
   left: 138px;
+  z-index: 1;
+}
+
+.roadmap-section::after {
+  background: #000;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: 0;
+  top: -20px;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  height: 60px;
+}
+
+.roadmap-section:before {
+  background: #000;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: 0;
+  bottom: -20px;
+  -webkit-filter: blur(14px);
+  filter: blur(10px);
+  height: 80px;
 }
