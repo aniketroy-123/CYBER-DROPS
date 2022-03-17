@@ -617,7 +617,7 @@ body {
 }
 
 .slick-prev {
-  left: -40px;
+  left: -40px !important;
 }
 
 .slick-next {
