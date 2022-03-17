@@ -40,15 +40,16 @@ const Faq = () => {
             }`}
           >
             <div
-              className={`faq-question font-lg text-white text-uppercase d-flex align-items-center justify-content-between py-3 `}
+              className={`faq-question font-lg text-white text-uppercase d-flex align-items-center justify-content-between py-1 py-sm-3 `}
             >
               {item.question}{" "}
               <span
-                className={` ps-2 ps-lg-0 ${
+                className={` ps-sm-2 ps-lg-0 ${
                   index === view ? "rotate-icon" : ""
                 } transition_03sEase`}
               >
                 <svg
+                  className="ps-1 ps-sm-0"
                   width="25"
                   height="25"
                   viewBox="0 0 25 25"

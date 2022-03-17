@@ -854,6 +854,7 @@ body {
   :root {
     --font-5xl: 25px;
     --font-4xl: 28px;
+    --font-2xl: 20px;
     --font-xl: 24px;
     --font-lg: 16px;
     --font-md: 14px;
@@ -891,5 +892,15 @@ body {
 
   .slick-dots {
     bottom: -35px !important;
+  }
+
+  .works-cards .rounded-div {
+    width: 51px;
+    height: 51px;
+    line-height: 51px;
+  }
+
+  .faq-question {
+    font-size: var(--font-md) !important;
   }
 }

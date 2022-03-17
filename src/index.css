@@ -202,7 +202,6 @@
   top: 0;
   z-index: 0;
 }
-
 /* moving animations on umbrellas */
 .whatwe-side,
 .roadmap-image-right1,
@@ -240,7 +239,7 @@
 }
 
 .roadmap-image-left {
-  animation: umbrella3 linear 2.3s infinite alternate-reverse;
+  animation: umbrella3 linear 2.5s infinite alternate-reverse;
 }
 
 @keyframes umbrella3 {
