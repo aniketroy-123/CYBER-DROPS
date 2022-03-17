@@ -10,7 +10,7 @@ import RoadmapImg4 from "../assets/png/roadmap-img4.png";
 const Roadmap = () => {
   return (
     <>
-      <section id="Roadmap" class="roadmap-section py-5 my-5 position-relative">
+      <section id="Roadmap" class="roadmap-section py-sm-5 position-relative">
         <img
           src={BlurImg}
           class="roadmap-image-right1 roadmap-bgimage position-absolute d-none d-lg-block"
@@ -27,7 +27,7 @@ const Roadmap = () => {
           alt="roadmap-image"
         />
 
-        <div class="container container-modified py-5">
+        <div class="container container-modified pt-5 py-sm-5">
           <div class="row text-white">
             <div class="col-12" data-aos="fade-top" data-aos-duration="2500">
               <h3 class="para-heading text-center">
@@ -167,7 +167,11 @@ const Roadmap = () => {
                 </div>
               </div>
 
-              <div className="col-10 col-sm-7">
+              <div
+                className="col-10 col-sm-7"
+                data-aos="fade-left"
+                data-aos-duration="2500"
+              >
                 <ul class="mb-0 fs-sm ps-0 mx-auto mx-sm-0">
                   <li class="list-unstyled mb-1 fw-600 font-xl">Phase 1</li>
                   <li class="list-unstyled my-1 font-sm fw-400">
@@ -193,7 +197,11 @@ const Roadmap = () => {
                 </div>
               </div>
 
-              <div className="col-10 col-sm-7">
+              <div
+                className="col-10 col-sm-7"
+                data-aos="fade-left"
+                data-aos-duration="2500"
+              >
                 <ul class="mb-0 fs-sm mb-1 ps-0 mx-auto mx-sm-0">
                   <li class="list-unstyled my-1 fw-600 font-xl">Phase 2</li>
                   <li class="list-unstyled my-1 font-sm fw-400">
@@ -219,7 +227,11 @@ const Roadmap = () => {
                 </div>
               </div>
 
-              <div className="col-10 col-sm-7">
+              <div
+                className="col-10 col-sm-7"
+                data-aos="fade-left"
+                data-aos-duration="2500"
+              >
                 <ul class="mb-0 fs-sm ps-0 mx-auto mx-sm-0">
                   <li class="list-unstyled mb-1 fw-600 font-xl">Phase 3</li>
                   <li class="list-unstyled my-1 font-sm fw-400">
@@ -245,7 +257,11 @@ const Roadmap = () => {
                 </div>
               </div>
 
-              <div className="col-10 col-sm-7">
+              <div
+                className="col-10 col-sm-7"
+                data-aos="fade-left"
+                data-aos-duration="2500"
+              >
                 <ul class="mb-0 fs-sm mb-1 ps-0 mx-auto mx-sm-0">
                   <li class="list-unstyled my-1 fw-600 font-xl">Phase 4</li>
                   <li class="list-unstyled my-1 font-sm fw-400">Dashboard!</li>

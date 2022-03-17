@@ -39,7 +39,7 @@ const Partner = () => {
                     alt="playbit"
                   />
                 </div>
-                <h6 className="font-md text-center mb-4 mt-md-3 mb-md-0 fw-600">
+                <h6 className="font-md text-center mb-sm-4 mt-md-3 mb-md-0 fw-600">
                   Playbit
                 </h6>
               </div>
@@ -51,7 +51,7 @@ const Partner = () => {
                     alt="partnersecond"
                   />
                 </div>
-                <h6 className="font-md text-center mb-4 mt-md-3 mb-md-0 fw-600">
+                <h6 className="font-md text-center mb-sm-4 mt-md-3 mb-md-0 fw-600">
                   24 Capital
                 </h6>
               </div>
@@ -63,11 +63,11 @@ const Partner = () => {
                     alt="partnersecond"
                   />
                 </div>
-                <h6 className="font-md text-center mb-4 mt-md-3 mb-md-0 fw-600">
+                <h6 className="font-md text-center mb-sm-4 mt-md-3 mb-md-0 fw-600">
                   TradingHive
                 </h6>
               </div>
-              <div className="mt-4 mt-lg-0">
+              <div className="mt-sm-4 mt-lg-0">
                 <div className="py-2 capital text-center">
                   <img
                     className="w-100 px-2 px-lg-4 py-2"
@@ -75,7 +75,7 @@ const Partner = () => {
                     alt="partnersecond"
                   />
                 </div>
-                <h6 className="font-md text-center mb-4 mt-md-3 mb-md-0 fw-600">
+                <h6 className="font-md text-center mb-sm-4 mt-md-3 mb-md-0 fw-600">
                   Focus Group Equities
                 </h6>
               </div>

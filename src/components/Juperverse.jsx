@@ -7,7 +7,7 @@ const Juperverse = () => {
         <div className="container container-modify py-4">
           <div className="row justify-content-center   align-items-center">
             <div
-              className="col-10 col-xl-6 order-2 order-lg-1 mt-5 mt-lg-0"
+              className="col-12 col-sm-10 col-xl-6 order-2 order-lg-1 mt-5 mt-lg-0"
               data-aos="fade-right"
               data-aos-duration="2500"
             >

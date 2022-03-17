@@ -6,6 +6,8 @@ import carouselsecond from "../assets/images/carouselsecond.png";
 import carouselthird from "../assets/images/carouselthird.png";
 import carouselforth from "../assets/images/carouselforth.png";
 import carouselfifth from "../assets/images/carouselfifth.png";
+import meetTeamImg from "../assets/png/meet-the-team-umbrella-img.png";
+
 export default function SimpleSlider() {
   var settings = {
     dots: true,
@@ -13,7 +15,7 @@ export default function SimpleSlider() {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplaySpeed: 1200,
+    autoplaySpeed: 2000,
     autoplay: true,
     Arrows: true,
     responsive: [
@@ -33,27 +35,44 @@ export default function SimpleSlider() {
           slidesToShow: 1,
           slidesToScroll: 1,
           arrows: false,
+
+          autoplay: false,
         },
       },
     ],
   };
   return (
-    <section id="Team" className="py-5">
+    <section id="Team" className="py-sm-5 position-relative">
+      <div className="position-absolute meet-team-img d-none d-md-block">
+        <img src={meetTeamImg} alt="Img" />
+      </div>
       <div className="container container-modify mb-5">
         <div className="row">
-          <div className="col-12" data-aos="fade-top" data-aos-duration="2500">
+          <div
+            className="col-12 z-index-1"
+            data-aos="fade-top"
+            data-aos-duration="2500"
+          >
             <h2 className="text-center text-white font-4xl fw-700">
               Meet the<span className="text-brown"> Team</span>
             </h2>
           </div>
         </div>
-        <div className="row mt-5 pt-2">
-          <div className="col-12" data-aos="fade-top" data-aos-duration="2500">
+        <div className="row my-4 my-sm-5 pt-sm-2">
+          <div
+            className="col-12 z-index-1"
+            data-aos="fade-top"
+            data-aos-duration="2500"
+          >
             <Slider {...settings}>
               <div className="d-flex carousel-card align-items-center mx-auto">
-                <img className="w-100 carousel-images" src={carousel} alt="" />
-                <div className="ps-3 my-4 my-sm-0">
-                  <h2 className="font-xl fw-800 ">Varun Muthu</h2>
+                <img
+                  className="w-100 carousel-images"
+                  src={carousel}
+                  alt="Img"
+                />
+                <div className="ps-3 my-4 my-sm-0 text-center text-sm-start">
+                  <h2 className="font-xl fw-800">Varun Muthu</h2>
                   <h6 className="font-md fw-500">
                     (CFO- Chief Financial Officer)
                   </h6>
@@ -65,7 +84,7 @@ export default function SimpleSlider() {
                     our mission to create a decentralized algorithmic trading
                     DAO.
                   </p>
-                  <div className="d-flex">
+                  <div className="d-flex justify-content-center justify-content-sm-start">
                     <a
                       className="d-flex font-lg text-white text-decoration-none px-4 py-2 align-items-center carousel-btn"
                       href=""
@@ -82,7 +101,7 @@ export default function SimpleSlider() {
                   src={carouselsecond}
                   alt="carouselsecond"
                 />
-                <div className="ps-3 pt-4 my-4 my-sm-0">
+                <div className="ps-3 pt-sm-4 my-4 my-sm-0 text-center text-sm-start">
                   <h2 className="font-xl fw-800 ">Shubh Sharma</h2>
                   <h6 className="font-md fw-500">
                     (CFO- Chief Financial Officer)
@@ -92,7 +111,7 @@ export default function SimpleSlider() {
                     expertise to Cyber Drops DAO. His background in leadership
                     makes him a perfect fit as our Informational Director.
                   </p>
-                  <div className="d-flex mt-5">
+                  <div className="d-flex mt-sm-5 justify-content-center justify-content-sm-start">
                     <a
                       className="d-flex font-lg text-white text-decoration-none px-4 py-2 align-items-center carousel-btn"
                       href=""
@@ -110,7 +129,7 @@ export default function SimpleSlider() {
                   src={carouselthird}
                   alt="carouselthird"
                 />
-                <div className="ps-3 pt-4 my-4 my-sm-0">
+                <div className="ps-3 pt-sm-4 my-4 my-sm-0 text-center text-sm-start">
                   <h2 className="font-xl fw-800 ">KJ</h2>
                   <h6 className="font-md fw-500">
                     (COO- Chief Operating Officer)
@@ -121,7 +140,7 @@ export default function SimpleSlider() {
                     his brand through his trading and past business ventures
                     making him the perfect fit as our Operations Director.
                   </p>
-                  <div className="d-flex mt-5">
+                  <div className="d-flex mt-sm-5 justify-content-center justify-content-sm-start">
                     <a
                       className="d-flex font-lg text-white text-decoration-none px-4 py-2 align-items-center carousel-btn"
                       href=""
@@ -139,7 +158,7 @@ export default function SimpleSlider() {
                   src={carouselforth}
                   alt="carouselforth"
                 />
-                <div className="ps-3 pt-4 my-4 my-sm-0">
+                <div className="ps-3 pt-sm-4 my-4 my-sm-0 text-center text-sm-start">
                   <h2 className="font-xl fw-800 ">Bitcoin Playboy</h2>
                   <h6 className="font-md fw-500">
                     (CMO- Chief Marketing Officer)
@@ -150,7 +169,7 @@ export default function SimpleSlider() {
                     also runs Bitcoin ATMs in his free time. He hopes to bring
                     his expertise in business to the table.
                   </p>
-                  <div className="d-flex mt-5">
+                  <div className="d-flex mt-sm-5 justify-content-center justify-content-sm-start">
                     <a
                       className="d-flex font-lg text-white text-decoration-none px-4 py-2 align-items-center carousel-btn"
                       href=""
@@ -167,7 +186,7 @@ export default function SimpleSlider() {
                   src={carouselfifth}
                   alt="carouselfifth"
                 />
-                <div className="ps-3 pt-4 my-4 my-sm-0">
+                <div className="ps-3 pt-sm-4 my-4 my-sm-0 text-center text-sm-start">
                   <h2 className="font-xl fw-800 ">JR Sockwell</h2>
                   <h6 className="font-md fw-500">
                     (CCO- Chief Compliance Officer)
@@ -178,7 +197,7 @@ export default function SimpleSlider() {
                     regulatory compliance. JR works to ensure that there is
                     complete compliance with international laws
                   </p>
-                  <div className="d-flex mt-5">
+                  <div className="d-flex mt-sm-5 justify-content-center justify-content-sm-start">
                     <a
                       className="d-flex font-lg text-white text-decoration-none px-4 py-2 align-items-center carousel-btn"
                       href=""

@@ -17,19 +17,21 @@ const MintCards = () => {
               </h2>
             </div>
           </div>
-          <div className="row justify-content-center pt-5 py-lg-5">
+          <div className="row justify-content-center pt-md-5 py-lg-5">
             <div
-              className="col-10 col-md-6 col-lg-5 col-xl-3 my-4"
+              className="col-10 col-md-6 col-lg-5 col-xl-3 mt-4"
               data-aos="flip-right"
               data-aos-duration="2500"
             >
               <div className="works-cards text-white mx-auto mx-xxl-0">
                 <div className="bg-black d-flex flex-column align-items-center justify-content-center">
-                  <p className="bg-brown font-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
+                  <p className="bg-brown font-2xl fw-700 text-center mb-1 mb-sm-3 d-inline-block mx-auto rounded-div">
                     01
                   </p>
-                  <p className="fw-700 font-lg text-center mt-1">Mint NFT</p>
-                  <p className="font-sm text-center px-xl-2">
+                  <p className="fw-700 font-lg text-center mt-1 mb-1 mb-sm-3">
+                    Mint NFT
+                  </p>
+                  <p className="font-sm text-center px-xl-2 mb-0 mb-md-3">
                     You must own our NFT to connect to direct management or
                     participate in governance
                   </p>
@@ -37,19 +39,19 @@ const MintCards = () => {
               </div>
             </div>
             <div
-              className="col-10 col-md-6 col-lg-5 col-xl-3 my-4"
+              className="col-10 col-md-6 col-lg-5 col-xl-3 mt-4"
               data-aos="flip-right"
               data-aos-duration="2500"
             >
               <div className="works-cards text-white mx-auto mx-xxl-0">
                 <div className="bg-black d-flex flex-column align-items-center justify-content-center">
-                  <p className="bg-brown font-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
+                  <p className="bg-brown font-2xl fw-700 text-center mb-1 mb-sm-3 d-inline-block mx-auto rounded-div">
                     02
                   </p>
-                  <p className="fw-700 font-lg text-center mt-1">
+                  <p className="fw-700 font-lg text-center mt-1 mb-1 mb-sm-3">
                     Verify NFT Ownership
                   </p>
-                  <p className="font-sm text-center">
+                  <p className="font-sm text-center mb-0 mb-md-3">
                     Only Cyber Drops that are have verified are eligible to be
                     connected under direct management
                   </p>
@@ -57,19 +59,19 @@ const MintCards = () => {
               </div>
             </div>
             <div
-              className="col-10 col-md-6 col-lg-5 col-xl-3 my-4"
+              className="col-10 col-md-6 col-lg-5 col-xl-3 mt-4"
               data-aos="flip-right"
               data-aos-duration="2500"
             >
               <div className="works-cards text-white mx-auto mx-xxl-0">
                 <div className="bg-black d-flex flex-column align-items-center justify-content-center">
-                  <p className="bg-brown font-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
+                  <p className="bg-brown font-2xl fw-700 text-center mb-1 mb-sm-3 d-inline-block mx-auto rounded-div">
                     03
                   </p>
-                  <p className="fw-700 font-lg text-center mt-1">
+                  <p className="fw-700 font-lg text-center mt-1 mb-1 mb-sm-3">
                     Link API to your account
                   </p>
-                  <p className="font-sm text-center px-xl-3">
+                  <p className="font-sm text-center px-xl-3 mb-0 mb-md-3">
                     Only HODLers that submit their API key and secret will be
                     under direct management
                   </p>
@@ -77,19 +79,19 @@ const MintCards = () => {
               </div>
             </div>
             <div
-              className="col-10 col-md-6 col-lg-5 col-xl-3 my-4"
+              className="col-10 col-md-6 col-lg-5 col-xl-3 mt-4"
               data-aos="flip-right"
               data-aos-duration="2500"
             >
               <div className="works-cards text-white mx-auto mx-xxl-0">
                 <div className="bg-black d-flex flex-column align-items-center justify-content-center">
-                  <p className="bg-brown font-2xl fw-700 text-center mb-3 d-inline-block mx-auto rounded-div">
+                  <p className="bg-brown font-2xl fw-700 text-center mb-1 mb-sm-3 d-inline-block mx-auto rounded-div">
                     04
                   </p>
-                  <p className="fw-700 font-lg text-center mt-1">
+                  <p className="fw-700 font-lg text-center mt-1 mb-1 mb-sm-3">
                     Passive Income for life
                   </p>
-                  <p className="font-sm text-center">
+                  <p className="font-sm text-center mb-0 mb-md-3">
                     As long as your HODL your Cyber Drop, you will be connected
                     under direct management
                   </p>

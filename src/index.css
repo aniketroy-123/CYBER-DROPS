@@ -31,7 +31,6 @@
   display: flex !important;
   align-items: center;
   justify-content: center;
-  line-height: 27px;
   padding: 19px 24px;
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
@@ -64,7 +63,7 @@
 
 .roadmap-image-left {
   left: 0px;
-  top: 50%;
+  top: 35%;
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -197,4 +196,61 @@
 .blur-img-6 {
   top: -100px;
   z-index: 0;
+}
+
+.meet-team-img {
+  top: 0;
+  z-index: 0;
+}
+
+/* moving animations on umbrellas */
+.whatwe-side,
+.roadmap-image-right1,
+.faqleft-image {
+  animation: umbrella linear 2s infinite alternate-reverse;
+}
+
+@keyframes umbrella {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.meet-team-img,
+.roadmap-image-right2 {
+  animation: umbrella2 linear 1.9s infinite alternate-reverse;
+}
+
+@keyframes umbrella2 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.roadmap-image-left {
+  animation: umbrella3 linear 2.3s infinite alternate-reverse;
+}
+
+@keyframes umbrella3 {
+  0% {
+    transform: scale(1.01);
+  }
+  50% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1.01);
+  }
 }

@@ -23,7 +23,7 @@ const Mission = () => {
               </div>
             </div>
             <div
-              className="z-index-1 col-12 col-lg-6 col-xxl-5 mt-5 mt-lg-0 mb-5 mb-lg-0"
+              className="z-index-1 col-12 col-lg-6 col-xxl-5 my-4 my-sm-5 my-lg-0"
               data-aos="fade-left"
               data-aos-duration="2500"
             >
@@ -31,7 +31,7 @@ const Mission = () => {
                 <p className="para-heading mb-0">
                   Our <span className="text-brown">Mission</span>
                 </p>
-                <p className="par mt-3 pt-sm-1 mb-4 mb-sm-3 mb-sm-5 pb-lg-0">
+                <p className="para mt-sm-4 pt-sm-1 mb-2 mb-sm-4 mb-lg-5">
                   We understand that one of the biggest concerns for early-stage
                   investors is that it can quickly become stressful,
                   overwhelming, and especially extremely time consuming. It

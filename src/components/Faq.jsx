@@ -16,20 +16,19 @@ const Faq = () => {
   };
 
   return (
-    <section className="py-sm-5 pt-5 pb-0 position-relative" id="faq">
-      <div className="position-absolute faqleft-image">
+    <section className="py-md-5 pb-0 position-relative" id="faq">
+      <div className="position-absolute faqleft-image d-none d-md-block">
         <img className="w-100" src={faqside} alt="faqside" />
       </div>
-      <div className="position-absolute faqrightblure">
+      <div className="position-absolute faqrightblure d-none d-md-block">
         <img className="w-100" src={faqrightblure} alt="faqrightblure" />
       </div>
-      <div className="animate-2"></div>
       <div
         className="container container-modify"
         data-aos="fade-up"
         data-aos-duration="2500"
       >
-        <h2 className="faq-heading ps-sm-3 text-gradient mb-5 pb-2 text-white text-center font-4xl">
+        <h2 className="faq-heading ps-sm-3 text-gradient mb-4 mb-sm-5 pb-sm-2 text-white text-center font-4xl">
           <span className="text-brown">FAQ</span> ’s
         </h2>
         {faqData.map((item, index) => (

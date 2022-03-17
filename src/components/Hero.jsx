@@ -1,14 +1,11 @@
 import React from "react";
-// import HeroImg from "../assets/png/hero-img.png";
-// import HeroImg from "../assets/png/new-umb-img.png";
 import HeroImg from "../assets/png/new-umb-img-2.png";
 
 const Hero = () => {
   return (
     <>
-      {/* <!--================================== HERO SECTION =====================================--> */}
       <section id="Home">
-        <div className="container my-xxl-3 pb-5 py-md-5 container-modify">
+        <div className="container my-xxl-3 py-5 container-modify">
           <div className="row justify-content-between align-items-center">
             <div
               className="z-index-1 col-12 col-lg-6 col-xxl-6 my-4 my-sm-5 my-lg-0 order-2 order-lg-1"
@@ -17,10 +14,13 @@ const Hero = () => {
             >
               <div className="  text-white text-center text-lg-start">
                 <h1 className="font-5xl fw-600 mb-sm-0">
-                  Welcome to <br />
+                  Welcome to
+                  <span className="d-none d-lg-inline-block">
+                    <br />
+                  </span>
                   <span className="text-brown fw-800"> Cyber Drops</span>
                 </h1>
-                <p className="para mt-sm-4 pt-sm-1 mb-4 mb-sm-5">
+                <p className="para mt-sm-4 pt-sm-1 mb-2 mb-sm-4 mb-lg-5">
                   Viverra felis, dui adipiscing ipsum pharetra donec. Pretium,
                   tempus, enim tincidunt at nibh duis iaculis in mauris. Id elit
                   nec curabitur purus. Ullamcorper mattis risus suspendisse
@@ -45,7 +45,6 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      {/* <!--================================== HERO SECTION =====================================--> */}
     </>
   );
 };

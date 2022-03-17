@@ -25,7 +25,7 @@ const Onlogo = () => {
               </div>
             </div>
             <div
-              className="z-index-1 col-12 my-5 col-lg-6 col-xxl-6 pt-5 pt-lg-0"
+              className="z-index-1 col-12 col-lg-6 col-xxl-6 my-4 my-lg-0 pt-sm-5 pt-lg-0"
               data-aos="fade-right"
               data-aos-duration="2500"
             >
