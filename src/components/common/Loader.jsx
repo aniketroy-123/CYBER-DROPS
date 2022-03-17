@@ -1,5 +1,5 @@
 import React from "react";
-import loader from "../../assets/images/loader.png";
+import loader from "../../assets/png/cyber-logo-img.png";
 
 const Loader = () => {
   return (

@@ -29,7 +29,7 @@ const Partner = () => {
           data-aos="fade-top"
           data-aos-duration="2500"
         >
-          <div className="container py-md-5">
+          <div className="container mb-lg-5 py-md-5">
             <div className="d-flex justify-content-center align-items-center partner-content">
               <div>
                 <div className="py-2 playbit text-center">
